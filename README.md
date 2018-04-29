@@ -8,6 +8,5 @@ Set up the MCP software. You need:
 - Java JDK
 - An OpenGL compatible graphic driver
 - The latest version of Eclipse EE
-- 8GB of RAM or more (we are making the tool compatible with less RAM)
 
 Open Eclipse. Set as workspace mcpdir (The location of the source code folder)\eclipse
