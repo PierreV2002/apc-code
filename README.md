@@ -11,11 +11,6 @@ Set up the MCP software. You need:
 
 Open Eclipse. Set as workspace mcpdir (The location of the source code folder)\eclipse
 
-# Decompiling sources
-This version of MCP can only decompile 1.8.8 in Minecraft root folder
-- Open "decompile.bat" or "decompile.sh" and wait
-- Open Eclipse
-
 # Recompiling and packing jar
 - Open "recompile.bat" or "recompile.sh" and wait (don't pay attention to the server error)
 - Open "reobfuscate.bat" or "reobfuscate.sh" and wait (don't pay attention to the server error)
