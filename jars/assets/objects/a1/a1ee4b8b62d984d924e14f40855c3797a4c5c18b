@@ -1,0 +1,33 @@
+{
+    "language": {
+		"en_US": {
+            "region": "US",
+            "name": "English",
+            "bidirectional": false
+        },
+		"it_IT": {
+            "region": "Italia",
+            "name": "Italiano",
+            "bidirectional": false
+        },
+		"fr_FR": {
+            "region": "France",
+            "name": "Fran\u00e7ais",
+            "bidirectional": false
+        },
+		"es_ES": {
+            "region": "Espa\u00f1a",
+            "name": "Espa\u00f1ol",
+            "bidirectional": false
+		},
+		"de_DE": {
+            "region": "Deutschland",
+            "name": "Deutsch",
+            "bidirectional": false
+        }
+	},
+    "pack": {
+        "description": "APC-PACK",
+        "pack_format": 1
+    }
+}

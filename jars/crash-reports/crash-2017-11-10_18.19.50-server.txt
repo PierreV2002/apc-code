@@ -1,0 +1,88 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 10/11/17 18.19
+Description: Ticking entity
+
+java.lang.Error: Unresolved compilation problem: 
+	Type mismatch: cannot convert from int to Entity
+
+	at net.minecraft.world.Explosion.<init>(Explosion.java:60)
+	at net.minecraft.world.WorldServer.newExplosion(WorldServer.java:1006)
+	at net.minecraft.world.World.createExplosion(World.java:2212)
+	at net.minecraft.entity.item.EntityTNTPrimed.explode(EntityTNTPrimed.java:98)
+	at net.minecraft.entity.item.EntityTNTPrimed.onUpdate(EntityTNTPrimed.java:85)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1879)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:702)
+	at net.minecraft.world.World.updateEntity(World.java:1848)
+	at net.minecraft.world.World.updateEntities(World.java:1700)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:540)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:775)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:685)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:178)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:564)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.world.Explosion.<init>(Explosion.java:60)
+	at net.minecraft.world.WorldServer.newExplosion(WorldServer.java:1006)
+	at net.minecraft.world.World.createExplosion(World.java:2212)
+	at net.minecraft.entity.item.EntityTNTPrimed.explode(EntityTNTPrimed.java:98)
+	at net.minecraft.entity.item.EntityTNTPrimed.onUpdate(EntityTNTPrimed.java:85)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1879)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:702)
+	at net.minecraft.world.World.updateEntity(World.java:1848)
+
+-- Entity being ticked --
+Details:
+	Entity Type: PrimedTnt (net.minecraft.entity.item.EntityTNTPrimed)
+	Entity ID: 680
+	Entity Name: Block of TNT
+	Entity's Exact location: 996,31, 70,00, 1007,51
+	Entity's Block location: 996,00,70,00,1007,00 - World: (996,70,1007), Chunk: (at 4,4,15 in 62,62; contains blocks 992,0,992 to 1007,255,1007), Region: (1,1; contains chunks 32,32 to 63,63, blocks 512,0,512 to 1023,255,1023)
+	Entity's Momentum: -0,00, -0,00, 0,00
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1700)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:540)
+
+-- Affected level --
+Details:
+	Level name: mcpworld
+	All players: 1 total; [EntityPlayerMP['Player661'/196, l='mcpworld', x=1003,70, y=72,70, z=1010,70]]
+	Chunk stats: ServerChunkCache: 1272 Drop: 0
+	Level seed: -1587754402
+	Level generator: ID 02 - largeBiomes, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: 584,00,64,00,166,00 - World: (584,64,166), Chunk: (at 8,4,6 in 36,10; contains blocks 576,0,160 to 591,255,175), Region: (1,0; contains chunks 32,0 to 63,31, blocks 512,0,0 to 1023,255,511)
+	Level time: 8709 game time, 8089 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 146218 (now: false), thunder time: 8841 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:775)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:685)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:178)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:564)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_152, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 687736280 bytes (655 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 99
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player661'/196, l='mcpworld', x=1003,70, y=72,70, z=1010,70]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated

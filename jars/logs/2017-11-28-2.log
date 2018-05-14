@@ -1,0 +1,137 @@
+[16:28:19] [Client thread/INFO]: Setting user: Player820
+[16:28:19] [Client thread/INFO]: (Session ID is token:0:Player820)
+[16:28:20] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:28:20] [Client thread/INFO]: Reloading ResourceManager: Default
+[16:28:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:28:21] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[16:28:21] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=granite
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=andesite
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=smooth_granite
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=smooth_diorite
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=diorite
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=smooth_andesite
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Client thread/WARN]: Unable to load definition minecraft:tuto_block#variant=stone
+java.lang.RuntimeException: Encountered an exception when loading model definition of model minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:162) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariants(ModelBakery.java:106) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:90) [bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [bin/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [bin/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [bin/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [bin/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [bin/:?]
+	at Start.main(Start.java:11) [bin/:?]
+Caused by: java.io.FileNotFoundException: minecraft:blockstates/tuto_block.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:89) ~[bin/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:75) ~[bin/:?]
+	at net.minecraft.client.resources.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:140) ~[bin/:?]
+	... 9 more
+[16:28:21] [Thread-6/INFO]: OpenAL initialized.
+[16:28:21] [Sound Library Loader/INFO]: Sound engine started
+[16:28:22] [Client thread/INFO]: Created: 512x512 textures-atlas
+[16:28:26] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[16:28:26] [Server thread/INFO]: Generating keypair
+[16:28:26] [Server thread/INFO]: Preparing start region for level 0
+[16:28:27] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:28:27] [Server thread/INFO]: Player820[local:E:f2168065] logged in with entity id 397 at (121.5, 65.0, 247.5)
+[16:28:27] [Server thread/INFO]: Player820 joined the game
+[16:28:28] [Server thread/INFO]: Player820 has just earned the achievement [Taking Inventory]
+[16:28:28] [Client thread/INFO]: [CHAT] Player820 has just earned the achievement [Taking Inventory]

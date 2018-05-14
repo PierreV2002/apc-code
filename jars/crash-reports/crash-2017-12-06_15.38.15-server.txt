@@ -1,0 +1,120 @@
+---- Minecraft Crash Report ----
+// Ouch. That hurt :(
+
+Time: 06/12/17 15.38
+Description: Colliding entity with block
+
+java.lang.NullPointerException: Colliding entity with block
+	at net.minecraft.entity.EntityLivingBase.attackEntityFrom(EntityLivingBase.java:881)
+	at net.minecraft.entity.passive.EntityAnimal.attackEntityFrom(EntityAnimal.java:76)
+	at net.minecraft.block.BlockUranium.onEntityCollidedWithBlock(BlockUranium.java:32)
+	at net.minecraft.entity.Entity.doBlockCollisions(Entity.java:961)
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:887)
+	at net.minecraft.entity.EntityLivingBase.moveEntityWithHeading(EntityLivingBase.java:1646)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2023)
+	at net.minecraft.entity.EntityLiving.onLivingUpdate(EntityLiving.java:453)
+	at net.minecraft.entity.EntityAgeable.onLivingUpdate(EntityAgeable.java:172)
+	at net.minecraft.entity.passive.EntityAnimal.onLivingUpdate(EntityAnimal.java:43)
+	at net.minecraft.entity.passive.EntityChicken.onLivingUpdate(EntityChicken.java:69)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1825)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:280)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1879)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:702)
+	at net.minecraft.world.World.updateEntity(World.java:1848)
+	at net.minecraft.world.World.updateEntities(World.java:1700)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:540)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:775)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:685)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:178)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:564)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.EntityLivingBase.attackEntityFrom(EntityLivingBase.java:881)
+	at net.minecraft.entity.passive.EntityAnimal.attackEntityFrom(EntityAnimal.java:76)
+	at net.minecraft.block.BlockUranium.onEntityCollidedWithBlock(BlockUranium.java:32)
+
+-- Block being collided with --
+Details:
+	Block: minecraft:uranium_block
+	Block location: World: (352,72,54), Chunk: (at 0,4,6 in 22,3; contains blocks 352,0,48 to 367,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+Stacktrace:
+	at net.minecraft.entity.Entity.doBlockCollisions(Entity.java:961)
+
+-- Entity being checked for collision --
+Details:
+	Entity Type: Chicken (net.minecraft.entity.passive.EntityChicken)
+	Entity ID: 386
+	Entity Name: Pollo
+	Entity's Exact location: 352,53, 72,94, 54,52
+	Entity's Block location: 352,00,72,00,54,00 - World: (352,72,54), Chunk: (at 0,4,6 in 22,3; contains blocks 352,0,48 to 367,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0,00, 0,00, -0,07
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.entity.Entity.moveEntity(Entity.java:887)
+	at net.minecraft.entity.EntityLivingBase.moveEntityWithHeading(EntityLivingBase.java:1646)
+	at net.minecraft.entity.EntityLivingBase.onLivingUpdate(EntityLivingBase.java:2023)
+	at net.minecraft.entity.EntityLiving.onLivingUpdate(EntityLiving.java:453)
+	at net.minecraft.entity.EntityAgeable.onLivingUpdate(EntityAgeable.java:172)
+	at net.minecraft.entity.passive.EntityAnimal.onLivingUpdate(EntityAnimal.java:43)
+	at net.minecraft.entity.passive.EntityChicken.onLivingUpdate(EntityChicken.java:69)
+	at net.minecraft.entity.EntityLivingBase.onUpdate(EntityLivingBase.java:1825)
+	at net.minecraft.entity.EntityLiving.onUpdate(EntityLiving.java:280)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:1879)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:702)
+	at net.minecraft.world.World.updateEntity(World.java:1848)
+
+-- Entity being ticked --
+Details:
+	Entity Type: Chicken (net.minecraft.entity.passive.EntityChicken)
+	Entity ID: 386
+	Entity Name: Pollo
+	Entity's Exact location: 352,53, 72,94, 54,52
+	Entity's Block location: 352,00,72,00,54,00 - World: (352,72,54), Chunk: (at 0,4,6 in 22,3; contains blocks 352,0,48 to 367,255,63), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0,00, 0,00, -0,07
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:1700)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:540)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['Player939'/385, l='New World', x=353,39, y=72,00, z=55,72]]
+	Chunk stats: ServerChunkCache: 1058 Drop: 0
+	Level seed: -8554879815181485955
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: 216,00,64,00,256,00 - World: (216,64,256), Chunk: (at 8,4,0 in 13,16; contains blocks 208,0,256 to 223,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 25430 game time, 10855 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 37289 (now: false), thunder time: 59988 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:775)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:685)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:178)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:564)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_152, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 682803040 bytes (651 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['Player939'/385, l='New World', x=353,39, y=72,00, z=55,72]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated

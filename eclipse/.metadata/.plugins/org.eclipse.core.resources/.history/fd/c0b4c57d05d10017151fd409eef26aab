@@ -1,0 +1,14 @@
+package net.minecraft.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public final class ModBlocks {
+
+    public static Block tutorialBlock;
+
+    public static final void init() {
+        registerBlock(tutorialBlock = new BasicBlock("tutorialBlock", Material.iron), "tutorialBlock");
+    }
+
+}

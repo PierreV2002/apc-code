@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="anti" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="anti"/>
+			<item value="0.3"/>
+			<item value="0.2.2"/>
+			<item value="Apocalitti"/>
+			<item value="Minecraft"/>
+			<item value="Apo"/>
+			<item value="Ap"/>
+			<item value="A"/>
+			<item value="Apocalitt"/>
+			<item value="apoc"/>
+			<item value="mob2a"/>
+			<item value="ilm"/>
+			<item value="I love"/>
+			<item value="08"/>
+			<item value="width"/>
+		</list>
+		<list key="replacehistory">
+			<item value="VillagerMutante"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="371" key="DIALOG_HEIGHT"/>
+		<item value="1090" key="DIALOG_X_ORIGIN"/>
+		<item value="309" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

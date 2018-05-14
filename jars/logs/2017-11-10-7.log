@@ -1,0 +1,32 @@
+[18:22:58] [Client thread/INFO]: Setting user: Player869
+[18:22:58] [Client thread/INFO]: (Session ID is token:0:Player869)
+[18:22:59] [Client thread/INFO]: LWJGL Version: 2.9.4
+[18:22:59] [Client thread/INFO]: Reloading ResourceManager: Default
+[18:22:59] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:22:59] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[18:22:59] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:22:59] [Thread-6/INFO]: OpenAL initialized.
+[18:23:00] [Sound Library Loader/INFO]: Sound engine started
+[18:23:00] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:23:03] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[18:23:03] [Server thread/INFO]: Generating keypair
+[18:23:03] [Server thread/INFO]: Preparing start region for level 0
+[18:23:04] [Server thread/INFO]: Changing view distance to 12, from 10
+[18:23:04] [Server thread/INFO]: Player869[local:E:829ea7cd] logged in with entity id 152 at (1003.7061778453644, 80.65382202875547, 1012.6252670237432)
+[18:23:04] [Server thread/INFO]: Player869 joined the game
+[18:23:36] [Client thread/INFO]: Stopping!
+[18:23:44] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 23424ms behind, skipping 468 tick(s)
+[18:23:44] [Server thread/INFO]: Saving and pausing game...
+[18:23:44] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[18:24:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[18:24:01] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[18:24:01] [Client thread/INFO]: SoundSystem shutting down...
+[18:24:02] [Server thread/INFO]: Stopping server
+[18:24:02] [Server thread/INFO]: Saving players
+[18:24:02] [Server thread/INFO]: Saving worlds
+[18:24:02] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[18:24:02] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[18:24:02] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[18:24:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[18:55:16] [Client thread/INFO]: Setting user: Player542
+[18:55:16] [Client thread/INFO]: (Session ID is token:0:Player542)
