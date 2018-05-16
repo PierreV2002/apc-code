@@ -19,16 +19,16 @@ Open Eclipse. Set as workspace mcpdir (The location of the source code folder)\e
 The assets and textures will not be outputted into the reobf folder, so you have to copy them into the jar manually
 
 # APC developers and contributors:
-- Pierre Vicquery
-- Fabien Dufour
-- Samuele Lolli
+- Pierre Vicquery (PierreV2002)
+- Fabien Dufour (Palpatraz02)
+- Samuele Lolli (Samuele1414)
 - Alexandru Babasa
 - Luca Gioffré
 - Wei Lin
 - Paul Janin
 - Alexander Vesan
 - Alexander Garbinato
-- Ludovico Sblendorio
+- Ludovico Sblendorio (sblenv)
 - Amedeo Lupu
 - Valerio De Meo
 - Jill Jaccond
