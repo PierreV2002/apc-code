@@ -239,6 +239,7 @@ public class Blocks
     public static final Block antimatter_block;
     public static final Block uranium_ore;
     public static final Block uranium_block;
+    public static final Block antiradiations_insulator;
     
     /**
      * Returns the Block in the blockRegistry with the specified name.
@@ -459,6 +460,7 @@ public class Blocks
             antimatter_block=getRegisteredBlock("antimatter_block");
             uranium_ore=getRegisteredBlock("uranium_ore");
             uranium_block=getRegisteredBlock("uranium_block");	
+            antiradiations_insulator=getRegisteredBlock("antiradiations_insulator");
         }
     }
 }

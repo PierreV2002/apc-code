@@ -502,6 +502,7 @@ public class RenderItem implements IResourceManagerReloadListener
     	this.registerItem(Items.rutherfordio, "rutherfordio");
     	this.registerBlock(Blocks.uranium_ore, "uranium_ore");
     	this.registerBlock(Blocks.uranium_block, "uranium_block");
+    	this.registerBlock(Blocks.antiradiations_insulator, "antiradiations_insulator");
     	this.registerItem(Items.uranium, "uranium");
        	this.registerItem(Items.antiradiazioni_maschera, "antiradiazioni_maschera");
     	this.registerItem(Items.antiradiazioni_corazza, "antiradiazioni_corazza");

@@ -1,13 +1,76 @@
-[10:01:00] [Client thread/INFO]: Setting user: Player297
-[10:01:00] [Client thread/INFO]: (Session ID is token:0:Player297)
-[10:01:01] [Client thread/INFO]: LWJGL Version: 2.9.4
-[10:01:02] [Client thread/INFO]: Reloading ResourceManager: Default
-[10:01:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:01:02] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[10:01:02] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:01:02] [Thread-6/INFO]: OpenAL initialized.
-[10:01:03] [Sound Library Loader/INFO]: Sound engine started
-[10:01:06] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:01:10] [Client thread/INFO]: Stopping!
-[10:01:10] [Client thread/INFO]: SoundSystem shutting down...
-[10:01:10] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[19:31:19] [Client thread/INFO]: Setting user: Player353
+[19:31:19] [Client thread/INFO]: (Session ID is token:0:Player353)
+[19:31:19] [Client thread/INFO]: LWJGL Version: 2.9.4
+[19:31:20] [Client thread/INFO]: Reloading ResourceManager: Default
+[19:31:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:31:20] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[19:31:20] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:31:20] [Thread-6/ERROR]: Error in class 'LibraryLWJGLOpenAL'
+[19:31:20] [Thread-6/ERROR]: Unable to initialize OpenAL.  Probable cause: OpenAL not supported.
+[19:31:20] [Thread-6/WARN]: ERROR MESSAGE:
+[19:31:20] [Thread-6/INFO]: Could not locate OpenAL library.
+[19:31:20] [Thread-6/WARN]: STACK TRACE:
+[19:31:20] [Thread-6/INFO]: org.lwjgl.openal.AL.create(AL.java:156)
+[19:31:20] [Thread-6/INFO]: org.lwjgl.openal.AL.create(AL.java:102)
+[19:31:20] [Thread-6/INFO]: org.lwjgl.openal.AL.create(AL.java:206)
+[19:31:20] [Thread-6/INFO]: paulscode.sound.libraries.LibraryLWJGLOpenAL.init(LibraryLWJGLOpenAL.java:164)
+[19:31:20] [Thread-6/INFO]: paulscode.sound.SoundSystem.CommandNewLibrary(SoundSystem.java:1576)
+[19:31:20] [Thread-6/INFO]: paulscode.sound.SoundSystem.CommandQueue(SoundSystem.java:2572)
+[19:31:20] [Thread-6/INFO]: paulscode.sound.CommandThread.run(CommandThread.java:121)
+[19:31:21] [Sound Library Loader/WARN]: ERROR MESSAGE:
+[19:31:21] [Sound Library Loader/INFO]: Could not locate OpenAL library.
+[19:31:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[19:31:21] [Client thread/WARN]: Unable to load item model: 'minecraft:item/antiradiations_insulator' for item: 'minecraft:antiradiations_insulator'
+java.io.FileNotFoundException: minecraft:models/item/antiradiations_insulator.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:64) ~[minecraft/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:61) ~[minecraft/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadModel(ModelBakery.java:239) ~[minecraft/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadItemModels(ModelBakery.java:280) [minecraft/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadVariantItemModels(ModelBakery.java:97) [minecraft/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:80) [minecraft/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [minecraft/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [minecraft/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [minecraft/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [minecraft/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [minecraft/:?]
+	at Start.main(Start.java:11) [minecraft/:?]
+[19:31:21] [Thread-8/INFO]: Switching to No Sound
+[19:31:21] [Thread-8/INFO]: (Silent Mode)
+[19:31:21] [Client thread/ERROR]: Using missing texture, unable to load minecraft:textures/blocks/antiradiations_insulator.png
+java.io.FileNotFoundException: minecraft:textures/blocks/antiradiations_insulator.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:64) ~[minecraft/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:61) ~[minecraft/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:98) [minecraft/:?]
+	at net.minecraft.client.renderer.texture.TextureMap.loadSprites(TextureMap.java:78) [minecraft/:?]
+	at net.minecraft.client.resources.model.ModelBakery.loadSprites(ModelBakery.java:600) [minecraft/:?]
+	at net.minecraft.client.resources.model.ModelBakery.setupModelRegistry(ModelBakery.java:82) [minecraft/:?]
+	at net.minecraft.client.resources.model.ModelManager.onResourceManagerReload(ModelManager.java:25) [minecraft/:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:111) [minecraft/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:546) [minecraft/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:398) [minecraft/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [minecraft/:?]
+	at Start.main(Start.java:11) [minecraft/:?]
+[19:31:21] [Sound Library Loader/INFO]: Sound engine started
+[19:31:21] [Client thread/INFO]: Created: 512x512 textures-atlas
+[19:31:21] [Client thread/WARN]: Missing model for: minecraft:item/antiradiations_insulator
+[19:31:24] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[19:31:24] [Server thread/INFO]: Generating keypair
+[19:31:25] [Server thread/INFO]: Preparing start region for level 0
+[19:31:25] [Server thread/INFO]: Changing view distance to 2, from 10
+[19:31:26] [Server thread/INFO]: Player353[local:E:5b12bf59] logged in with entity id 170 at (252.91755653895547, 64.0, 161.6584527938266)
+[19:31:26] [Server thread/INFO]: Player353 è entrato nel gioco
+[19:31:27] [Server thread/INFO]: Player353 ha appena guadagnato la conquista [Fare l'Inventario]
+[19:31:27] [Client thread/INFO]: [CHAT] Player353 ha appena guadagnato la conquista [Fare l'Inventario]
+[19:31:30] [Server thread/INFO]: Saving and pausing game...
+[19:31:30] [Server thread/INFO]: Saving chunks for level 'ISIS'/Overworld
+[19:31:30] [Server thread/INFO]: Saving chunks for level 'ISIS'/Nether
+[19:31:30] [Server thread/INFO]: Saving chunks for level 'ISIS'/The End
+[19:31:30] [Server thread/INFO]: Stopping server
+[19:31:30] [Server thread/INFO]: Saving players
+[19:31:30] [Server thread/INFO]: Saving worlds
+[19:31:30] [Server thread/INFO]: Saving chunks for level 'ISIS'/Overworld
+[19:31:30] [Server thread/INFO]: Saving chunks for level 'ISIS'/Nether
+[19:31:30] [Server thread/INFO]: Saving chunks for level 'ISIS'/The End
+[19:31:31] [Client thread/INFO]: Stopping!
+[19:31:31] [Client thread/INFO]: SoundSystem shutting down...
+[19:31:31] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

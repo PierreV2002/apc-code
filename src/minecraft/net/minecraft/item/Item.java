@@ -614,6 +614,7 @@ public class Item
         })).setUnlocalizedName("rose"));
         registerItemBlock(Blocks.antimatter_block);
         registerItemBlock(Blocks.uranium_block);
+        registerItemBlock(Blocks.antiradiations_insulator);
         registerItemBlock(Blocks.brown_mushroom);
         registerItemBlock(Blocks.red_mushroom);
         registerItemBlock(Blocks.gold_block);
