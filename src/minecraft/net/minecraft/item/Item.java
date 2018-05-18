@@ -526,6 +526,7 @@ public class Item
             }
         })).setUnlocalizedName("dirt"));
         registerItemBlock(Blocks.cobblestone);
+        registerItemBlock(Blocks.radioactive_cobblestone);
         registerItemBlock(Blocks.planks, (new ItemMultiTexture(Blocks.planks, Blocks.planks, new Function<ItemStack, String>()
         {
             public String apply(ItemStack p_apply_1_)
@@ -615,6 +616,7 @@ public class Item
         registerItemBlock(Blocks.antimatter_block);
         registerItemBlock(Blocks.uranium_block);
         registerItemBlock(Blocks.antiradiations_insulator);
+        registerItemBlock(Blocks.radioactive_stone);
         registerItemBlock(Blocks.brown_mushroom);
         registerItemBlock(Blocks.red_mushroom);
         registerItemBlock(Blocks.gold_block);

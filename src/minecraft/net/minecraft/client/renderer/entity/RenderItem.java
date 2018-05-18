@@ -508,6 +508,9 @@ public class RenderItem implements IResourceManagerReloadListener
     	this.registerItem(Items.antiradiazioni_corazza, "antiradiazioni_corazza");
     	this.registerItem(Items.antiradiazioni_gambali, "antiradiazioni_gambali");
     	this.registerItem(Items.antiradiazioni_stivali, "antiradiazioni_stivali");
+    	this.registerBlock(Blocks.radioactive_stone, "radioactive_stone");
+    	this.registerBlock(Blocks.radioactive_cobblestone, "radioactive_cobblestone");
+        this.registerBlock(Blocks.planks, BlockPlanks.EnumType.RADIOACTIVE.getMetadata(), "radioactive_planks");
     	
     	
         this.registerBlock(Blocks.anvil, "anvil_intact");

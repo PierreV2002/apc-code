@@ -240,6 +240,8 @@ public class Blocks
     public static final Block uranium_ore;
     public static final Block uranium_block;
     public static final Block antiradiations_insulator;
+    public static final Block radioactive_stone;
+    public static final Block radioactive_cobblestone;
     
     /**
      * Returns the Block in the blockRegistry with the specified name.
@@ -461,6 +463,8 @@ public class Blocks
             uranium_ore=getRegisteredBlock("uranium_ore");
             uranium_block=getRegisteredBlock("uranium_block");	
             antiradiations_insulator=getRegisteredBlock("antiradiations_insulator");
+            radioactive_stone=getRegisteredBlock("radioactive_stone");
+            radioactive_cobblestone=getRegisteredBlock("radioactive_cobblestone");
         }
     }
 }

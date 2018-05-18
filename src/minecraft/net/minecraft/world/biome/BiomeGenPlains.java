@@ -3,7 +3,10 @@ package net.minecraft.world.biome;
 import java.util.Random;
 import net.minecraft.block.BlockDoublePlant;
 import net.minecraft.block.BlockFlower;
+import net.minecraft.entity.monster.EntityGhast;
 import net.minecraft.entity.passive.EntityHorse;
+import net.minecraft.entity.passive.EntityMooshroom;
+import net.minecraft.init.Blocks;
 import net.minecraft.util.BlockPos;
 import net.minecraft.world.World;
 
@@ -18,9 +21,16 @@ public class BiomeGenPlains extends BiomeGenBase
         this.setHeight(height_LowPlains);
         this.spawnableCreatureList.add(new BiomeGenBase.SpawnListEntry(EntityHorse.class, 5, 2, 6));
         this.theBiomeDecorator.treesPerChunk = -999;
-        this.theBiomeDecorator.flowersPerChunk = 4;
-        this.theBiomeDecorator.grassPerChunk = 10;
+        this.theBiomeDecorator.flowersPerChunk = 6;
+        this.theBiomeDecorator.grassPerChunk = 20;
+        this.setBiomeName("Bioma RadioAttivo");
+        this.topBlock = Blocks.uranium_block.getDefaultState(); //Cambia il Blocco Di superficie
+        this.fillerBlock = Blocks.mossy_cobblestone.getDefaultState(); //Cambia i 3 blocchi di superficie
+        
+        
+        
     }
+   
 
     public BlockFlower.EnumFlowerType pickRandomFlower(Random rand, BlockPos pos)
     {
@@ -34,7 +44,7 @@ public class BiomeGenPlains extends BiomeGenBase
             {
                 case 0:
                     return BlockFlower.EnumFlowerType.ORANGE_TULIP;
-
+                    
                 case 1:
                     return BlockFlower.EnumFlowerType.RED_TULIP;
 
@@ -42,7 +52,8 @@ public class BiomeGenPlains extends BiomeGenBase
                     return BlockFlower.EnumFlowerType.PINK_TULIP;
 
                 case 3:
-                default:
+                	return BlockFlower.EnumFlowerType.BLUE_ORCHID;
+                default : 
                     return BlockFlower.EnumFlowerType.WHITE_TULIP;
             }
         }
@@ -100,10 +111,12 @@ public class BiomeGenPlains extends BiomeGenBase
     protected BiomeGenBase createMutatedBiome(int p_180277_1_)
     {
         BiomeGenPlains biomegenplains = new BiomeGenPlains(p_180277_1_);
-        biomegenplains.setBiomeName("Sunflower Plains");
+        biomegenplains.setBiomeName("Pianura Fiorita Radioattiva");
         biomegenplains.field_150628_aC = true;
         biomegenplains.setColor(9286496);
         biomegenplains.field_150609_ah = 14273354;
-        return biomegenplains;
+     
+        biomegenplains.topBlock = Blocks.antimatter_ore.getDefaultState();
+        		 return biomegenplains;
     }
 }

@@ -79,7 +79,8 @@ public class BlockPlanks extends Block
         BIRCH(2, "birch", MapColor.sandColor),
         JUNGLE(3, "jungle", MapColor.dirtColor),
         ACACIA(4, "acacia", MapColor.adobeColor),
-        DARK_OAK(5, "dark_oak", "big_oak", MapColor.brownColor);
+        DARK_OAK(5, "dark_oak", "big_oak", MapColor.brownColor),
+    	RADIOACTIVE(6, "radioactive", MapColor.antimatterColor);
 
         private static final BlockPlanks.EnumType[] META_LOOKUP = new BlockPlanks.EnumType[values().length];
         private final int meta;

@@ -1459,6 +1459,8 @@ public class Block
         registerBlock(200, "uranium_ore", (new BlockOre()).setHardness(3.0F).setResistance(5.0F).setStepSound(soundTypePiston).setUnlocalizedName("oreUranium"));
         registerBlock(201, "uranium_block", (new Block(Material.iron, MapColor.antimatterColor).setHardness(5.0F).setResistance(10.0F).setStepSound(soundTypeMetal).setUnlocalizedName("uraniumBlock").setCreativeTab(CreativeTabs.tabBlock)));
         registerBlock(202, "antiradiations_insulator", (new Block(Material.iron, MapColor.antimatterColor).setHardness(5.0F).setResistance(10.0F).setStepSound(soundTypeMetal).setUnlocalizedName("insulatorAntiradiations").setCreativeTab(CreativeTabs.tabBlock)));
+        registerBlock(203, "radioactive_stone", (new Block(Material.iron, MapColor.antimatterColor).setHardness(5.0F).setResistance(10.0F).setStepSound(soundTypeMetal).setUnlocalizedName("stoneRadioactive").setCreativeTab(CreativeTabs.tabBlock)));
+        registerBlock(204, "radioactive_cobblestone", (new Block(Material.iron, MapColor.antimatterColor).setHardness(5.0F).setResistance(10.0F).setStepSound(soundTypeMetal).setUnlocalizedName("cobblestoneRadioactive").setCreativeTab(CreativeTabs.tabBlock)));
         
        
         blockRegistry.validateKey();
