@@ -135,7 +135,7 @@ public final class WorldSettings
     public static enum GameType
     {
         NOT_SET(-1, ""),
-        SURVIVAL(0, "survival"),
+        SURVIVAL(0, "apocalissi"),
         CREATIVE(1, "creative"),
         ADVENTURE(2, "adventure"),
         SPECTATOR(3, "spectator");
