@@ -8,6 +8,11 @@
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Author"/>
+			<item value="alpha"/>
+			<item value="welcome"/>
+			<item value="code"/>
+			<item value="Paul"/>
 			<item value="acacia"/>
 			<item value="inventory"/>
 			<item value="Slab"/>
@@ -18,11 +23,6 @@
 			<item value="        this.registerBlock(Blocks.planks, BlockPlanks.EnumType.ACACIA.getMetadata(), &quot;acacia_planks&quot;);"/>
 			<item value="wood"/>
 			<item value="oak"/>
-			<item value="antimatter"/>
-			<item value="anti"/>
-			<item value="0.3"/>
-			<item value="0.2.2"/>
-			<item value="Apocalitti"/>
 		</list>
 		<list key="replacehistory">
 			<item value="VillagerMutante"/>
