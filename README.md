@@ -24,7 +24,7 @@ The assets and textures will not be outputted into the reobf folder, so you have
 - Samuele Lolli (Samuele1414)
 - Alexandru Babasa
 - Luca Gioffré
-- Wei Lin
+- Wei Lin (Craysos)
 - Paul Janin
 - Alexander Vesan
 - Alexander Garbinato
@@ -33,6 +33,3 @@ The assets and textures will not be outputted into the reobf folder, so you have
 - Valerio De Meo
 - Jill Jaccond
 - François Brunet
-- Amine Chakir
-- Andrea Trecate
-- Dennis Juglair
