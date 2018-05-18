@@ -117,7 +117,6 @@ public class BiomeGenPlains extends BiomeGenBase
         biomegenplains.field_150609_ah = 14273354;
      
         biomegenplains.topBlock = Blocks.antimatter_ore.getDefaultState();
-        
         		 return biomegenplains;
     }
 }
