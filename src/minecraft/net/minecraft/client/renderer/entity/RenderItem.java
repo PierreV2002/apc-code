@@ -511,6 +511,8 @@ public class RenderItem implements IResourceManagerReloadListener
     	this.registerBlock(Blocks.radioactive_stone, "radioactive_stone");
     	this.registerBlock(Blocks.radioactive_cobblestone, "radioactive_cobblestone");
         this.registerBlock(Blocks.planks, BlockPlanks.EnumType.RADIOACTIVE.getMetadata(), "radioactive_planks");
+        this.registerBlock(Blocks.wooden_slab, BlockPlanks.EnumType.RADIOACTIVE.getMetadata(), "radioactive_slab");
+        this.registerBlock(Blocks.log2, BlockPlanks.EnumType.RADIOACTIVE.getMetadata() - 4, "radioactive_log");
     	
     	
         this.registerBlock(Blocks.anvil, "anvil_intact");
