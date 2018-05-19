@@ -1,2 +1,40 @@
-[11:38:06] [Client thread/INFO]: Setting user: Player781
-[11:38:06] [Client thread/INFO]: (Session ID is token:0:Player781)
+[12:54:07] [Client thread/INFO]: Setting user: Player106
+[12:54:07] [Client thread/INFO]: (Session ID is token:0:Player106)
+[12:54:08] [Client thread/INFO]: LWJGL Version: 2.9.4
+[12:54:08] [Client thread/INFO]: =============================
+[12:54:08] [Client thread/INFO]: Welcome to Apocalitticraft!
+[12:54:08] [Client thread/INFO]: -----------
+[12:54:08] [Client thread/INFO]: Version: 0.3.2-20180519
+[12:54:08] [Client thread/INFO]: =============================
+[12:54:09] [Client thread/INFO]: Reloading ResourceManager: Default
+[12:54:09] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[12:54:09] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[12:54:09] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[12:54:09] [Thread-6/INFO]: OpenAL initialized.
+[12:54:10] [Sound Library Loader/INFO]: Sound engine started
+[12:54:12] [Client thread/INFO]: Created: 512x512 textures-atlas
+[12:54:17] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[12:54:17] [Server thread/INFO]: Generating keypair
+[12:54:17] [Server thread/INFO]: Preparing start region for level 0
+[12:54:17] [Server thread/INFO]: Changing view distance to 2, from 10
+[12:54:18] [Server thread/INFO]: Player106[local:E:1693aaf6] logged in with entity id 285 at (211.56938815871743, 78.489356611341, 91.26568456090645)
+[12:54:18] [Server thread/INFO]: Player106 è entrato nel gioco
+[12:54:33] [Server thread/INFO]: Saving and pausing game...
+[12:54:33] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/Overworld
+[12:54:33] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/Nether
+[12:54:33] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/The End
+[12:54:49] [Server thread/INFO]: Changing view distance to 16, from 2
+[12:54:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4352ms behind, skipping 87 tick(s)
+[12:55:01] [Server thread/INFO]: Saving and pausing game...
+[12:55:01] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/Overworld
+[12:55:02] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/Nether
+[12:55:02] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/The End
+[12:55:03] [Server thread/INFO]: Stopping server
+[12:55:03] [Server thread/INFO]: Saving players
+[12:55:03] [Server thread/INFO]: Saving worlds
+[12:55:03] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/Overworld
+[12:55:03] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/Nether
+[12:55:03] [Server thread/INFO]: Saving chunks for level 'NON ELIMINARE MAI'/The End
+[12:55:04] [Client thread/INFO]: Stopping!
+[12:55:04] [Client thread/INFO]: SoundSystem shutting down...
+[12:55:04] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
