@@ -23,7 +23,7 @@ INFO: Processed 1178 -> 1175
 INFO: Processing net/minecraft/block/Block$SoundType.class
 INFO: Processed 1177 -> 1177
 INFO: Processing net/minecraft/block/Block.class
-INFO: Processed 55538 -> 55698
+INFO: Processed 55861 -> 56027
 INFO: Processing net/minecraft/block/BlockAir.class
 INFO: Processed 1567 -> 1567
 INFO: Processing net/minecraft/block/BlockAnvil$Anvil.class
@@ -289,7 +289,7 @@ INFO: Processed 9385 -> 9364
 INFO: Processing net/minecraft/block/BlockPistonMoving.class
 INFO: Processed 10308 -> 10281
 INFO: Processing net/minecraft/block/BlockPlanks$EnumType.class
-INFO: Processed 3333 -> 3330
+INFO: Processed 3445 -> 3442
 INFO: Processing net/minecraft/block/BlockPlanks.class
 INFO: Processed 3748 -> 3748
 INFO: Processing net/minecraft/block/BlockPortal$Size.class
@@ -620,7 +620,7 @@ INFO: Processed 1208 -> 1208
 INFO: Processing net/minecraft/client/Minecraft.class
 FINE: Access: net/minecraft/client/Minecraft/access$100(Lnet/minecraft/client/Minecraft;)Lnet/minecraft/client/resources/LanguageManager; [GETFIELD net/minecraft/client/Minecraft/mcLanguageManager Lnet/minecraft/client/resources/LanguageManager;]
 FINE: Access: net/minecraft/client/Minecraft/access$000(Lnet/minecraft/client/Minecraft;)Ljava/lang/String; [GETFIELD net/minecraft/client/Minecraft/launchedVersion Ljava/lang/String;]
-INFO: Processed 91129 -> 90977
+INFO: Processed 91307 -> 91160
 INFO: Processing net/minecraft/client/audio/GuardianSound.class
 INFO: Processed 1535 -> 1535
 INFO: Processing net/minecraft/client/audio/ISound$AttenuationType.class
@@ -796,7 +796,7 @@ INFO: Processed 1816 -> 1813
 INFO: Processing net/minecraft/client/gui/GuiLockIconButton.class
 INFO: Processed 2220 -> 2217
 INFO: Processing net/minecraft/client/gui/GuiMainMenu.class
-INFO: Processed 18188 -> 18207
+INFO: Processed 18182 -> 18201
 INFO: Processing net/minecraft/client/gui/GuiMemoryErrorScreen.class
 INFO: Processed 2883 -> 2883
 INFO: Processing net/minecraft/client/gui/GuiMerchant$MerchantButton.class
@@ -823,7 +823,7 @@ INFO: Processed 3450 -> 3441
 INFO: Processing net/minecraft/client/gui/GuiOverlayDebug$1.class
 INFO: Processed 820 -> 788
 INFO: Processing net/minecraft/client/gui/GuiOverlayDebug.class
-INFO: Processed 15531 -> 15522
+INFO: Processed 15525 -> 15516
 INFO: Processing net/minecraft/client/gui/GuiPageButtonList$EditBoxEntry.class
 INFO: Processed 1422 -> 1422
 INFO: Processing net/minecraft/client/gui/GuiPageButtonList$GuiButtonEntry.class
@@ -1883,7 +1883,7 @@ INFO: Processed 1055 -> 1055
 INFO: Processing net/minecraft/client/renderer/entity/RenderItem$9.class
 INFO: Processed 1051 -> 1051
 INFO: Processing net/minecraft/client/renderer/entity/RenderItem.class
-INFO: Processed 46233 -> 46280
+INFO: Processed 46539 -> 46587
 INFO: Processing net/minecraft/client/renderer/entity/RenderLeashKnot.class
 INFO: Processed 2283 -> 2283
 INFO: Processing net/minecraft/client/renderer/entity/RenderLightningBolt.class
@@ -3210,7 +3210,7 @@ INFO: Processed 2362 -> 2359
 INFO: Processing net/minecraft/event/HoverEvent.class
 INFO: Processed 1821 -> 1818
 INFO: Processing net/minecraft/init/Blocks.class
-INFO: Processed 13257 -> 13370
+INFO: Processed 13432 -> 13545
 INFO: Processing net/minecraft/init/Bootstrap$1.class
 INFO: Processed 1078 -> 1078
 INFO: Processing net/minecraft/init/Bootstrap$10.class
@@ -3376,7 +3376,7 @@ INFO: Processed 1151 -> 1151
 INFO: Processing net/minecraft/item/Item$ToolMaterial.class
 INFO: Processed 2618 -> 2612
 INFO: Processing net/minecraft/item/Item.class
-INFO: Processed 39834 -> 39782
+INFO: Processed 39967 -> 39915
 INFO: Processing net/minecraft/item/ItemAnvilBlock.class
 INFO: Processed 679 -> 679
 INFO: Processing net/minecraft/item/ItemAppleGold.class
@@ -4690,7 +4690,7 @@ INFO: Processed 2232 -> 2232
 INFO: Processing net/minecraft/world/WorldServerMulti.class
 INFO: Processed 2794 -> 2791
 INFO: Processing net/minecraft/world/WorldSettings$GameType.class
-INFO: Processed 3152 -> 3143
+INFO: Processed 3154 -> 3145
 INFO: Processing net/minecraft/world/WorldSettings.class
 INFO: Processed 2635 -> 2635
 INFO: Processing net/minecraft/world/WorldType.class
@@ -4723,7 +4723,7 @@ INFO: Processed 1388 -> 1388
 INFO: Processing net/minecraft/world/biome/BiomeGenBase$TempCategory.class
 INFO: Processed 1319 -> 1316
 INFO: Processing net/minecraft/world/biome/BiomeGenBase.class
-INFO: Processed 22117 -> 22198
+INFO: Processed 22295 -> 22378
 INFO: Processing net/minecraft/world/biome/BiomeGenBeach.class
 INFO: Processed 1063 -> 1063
 INFO: Processing net/minecraft/world/biome/BiomeGenDesert.class
@@ -4751,7 +4751,7 @@ INFO: Processed 3782 -> 3782
 INFO: Processing net/minecraft/world/biome/BiomeGenOcean.class
 INFO: Processed 1222 -> 1222
 INFO: Processing net/minecraft/world/biome/BiomeGenPlains.class
-INFO: Processed 4412 -> 4409
+INFO: Processed 4867 -> 4864
 INFO: Processing net/minecraft/world/biome/BiomeGenRiver.class
 INFO: Processed 481 -> 481
 INFO: Processing net/minecraft/world/biome/BiomeGenSavanna$Mutated.class
@@ -5221,15 +5221,15 @@ INFO: Processed 6123 -> 6117
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Hall.class
 INFO: Processed 7466 -> 7460
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House1.class
-INFO: Processed 7117 -> 7111
+INFO: Processed 7220 -> 7214
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House2.class
-INFO: Processed 8820 -> 8814
+INFO: Processed 8929 -> 8923
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House3.class
 INFO: Processed 7758 -> 7752
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House4Garden.class
 INFO: Processed 7004 -> 6998
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Path.class
-INFO: Processed 7012 -> 7012
+INFO: Processed 7029 -> 7029
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$PieceWeight.class
 INFO: Processed 1436 -> 1436
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Road.class
@@ -5237,13 +5237,13 @@ INFO: Processed 877 -> 877
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Start.class
 INFO: Processed 2852 -> 2843
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Torch.class
-INFO: Processed 4934 -> 4925
+INFO: Processed 4752 -> 4743
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Village.class
-INFO: Processed 9580 -> 9565
+INFO: Processed 9512 -> 9497
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Well.class
 INFO: Processed 4917 -> 4911
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$WoodHut.class
-INFO: Processed 6991 -> 6985
+INFO: Processed 7008 -> 7002
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces.class
 FINE: Access: net/minecraft/world/gen/structure/StructureVillagePieces/access$000(Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent; [INVOKESTATIC net/minecraft/world/gen/structure/StructureVillagePieces/func_176069_e (Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent;]
 FINE: Access: net/minecraft/world/gen/structure/StructureVillagePieces/access$100(Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent; [INVOKESTATIC net/minecraft/world/gen/structure/StructureVillagePieces/func_176066_d (Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent;]

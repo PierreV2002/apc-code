@@ -2,12 +2,15 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="end" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="Gameend"/>
+			<item value="endGame"/>
+			<item value="end"/>
 			<item value="Author"/>
 			<item value="alpha"/>
 			<item value="welcome"/>
@@ -20,9 +23,6 @@
 			<item value="planks"/>
 			<item value="log"/>
 			<item value="stone"/>
-			<item value="        this.registerBlock(Blocks.planks, BlockPlanks.EnumType.ACACIA.getMetadata(), &quot;acacia_planks&quot;);"/>
-			<item value="wood"/>
-			<item value="oak"/>
 		</list>
 		<list key="replacehistory">
 			<item value="VillagerMutante"/>
