@@ -1,74 +1,46 @@
-[21:53:18] [Client thread/INFO]: Setting user: Player996
-[21:53:18] [Client thread/INFO]: (Session ID is token:0:Player996)
-[21:53:19] [Client thread/INFO]: LWJGL Version: 2.9.4
-[21:53:19] [Client thread/INFO]: =============================
-[21:53:19] [Client thread/INFO]: Welcome to Apocalitticraft!
-[21:53:19] [Client thread/INFO]: -----------
-[21:53:19] [Client thread/INFO]: Version: 0.3.2-20180518
-[21:53:19] [Client thread/INFO]: =============================
-[21:53:20] [Client thread/INFO]: Reloading ResourceManager: Default
-[21:53:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:53:20] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[21:53:20] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:53:20] [Thread-6/INFO]: OpenAL initialized.
-[21:53:21] [Sound Library Loader/INFO]: Sound engine started
-[21:53:26] [Client thread/INFO]: Created: 512x512 textures-atlas
-[21:54:07] [Client thread/INFO]: Deleting level NON ELIMINARE
-[21:54:07] [Client thread/INFO]: Attempt 1...
-[21:54:13] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[21:54:13] [Server thread/INFO]: Generating keypair
-[21:54:13] [Server thread/INFO]: Converting map!
-[21:54:13] [Server thread/INFO]: Scanning folders...
-[21:54:13] [Server thread/INFO]: Total conversion count is 0
-[21:54:14] [Server thread/INFO]: Preparing start region for level 0
-[21:54:15] [Server thread/INFO]: Preparing spawn area: 8%
-[21:54:16] [Server thread/INFO]: Preparing spawn area: 16%
-[21:54:17] [Server thread/INFO]: Preparing spawn area: 25%
-[21:54:18] [Server thread/INFO]: Preparing spawn area: 38%
-[21:54:19] [Server thread/INFO]: Preparing spawn area: 49%
-[21:54:20] [Server thread/INFO]: Preparing spawn area: 59%
-[21:54:21] [Server thread/INFO]: Preparing spawn area: 71%
-[21:54:22] [Server thread/INFO]: Preparing spawn area: 85%
-[21:54:23] [Server thread/INFO]: Changing view distance to 2, from 10
-[21:54:23] [Server thread/INFO]: Player996[local:E:842935d0] logged in with entity id 148 at (221.5, 67.0, 5.5)
-[21:54:23] [Server thread/INFO]: Player996 è entrato nel gioco
-[21:54:46] [Server thread/INFO]: Saving and pausing game...
-[21:54:46] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
-[21:54:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
-[21:54:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
-[21:54:47] [Server thread/INFO]: Stopping server
-[21:54:47] [Server thread/INFO]: Saving players
-[21:54:47] [Server thread/INFO]: Saving worlds
-[21:54:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
-[21:54:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
-[21:54:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
-[21:54:51] [Client thread/INFO]: Deleting level Copia di NON ELIMINARE MAI
-[21:54:52] [Client thread/INFO]: Attempt 1...
-[21:54:55] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[21:54:55] [Server thread/INFO]: Generating keypair
-[21:54:55] [Server thread/INFO]: Converting map!
-[21:54:55] [Server thread/INFO]: Scanning folders...
-[21:54:55] [Server thread/INFO]: Total conversion count is 0
-[21:54:56] [Server thread/INFO]: Preparing start region for level 0
-[21:54:57] [Server thread/INFO]: Preparing spawn area: 15%
-[21:54:58] [Server thread/INFO]: Preparing spawn area: 29%
-[21:54:59] [Server thread/INFO]: Preparing spawn area: 45%
-[21:55:00] [Server thread/INFO]: Preparing spawn area: 58%
-[21:55:01] [Server thread/INFO]: Preparing spawn area: 70%
-[21:55:02] [Server thread/INFO]: Preparing spawn area: 85%
-[21:55:03] [Server thread/INFO]: Changing view distance to 2, from 10
-[21:55:03] [Server thread/INFO]: Player996[local:E:5d8615a1] logged in with entity id 5827 at (235.5, 68.0, 0.5)
-[21:55:03] [Server thread/INFO]: Player996 è entrato nel gioco
-[21:55:41] [Server thread/INFO]: Saving and pausing game...
-[21:55:41] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
-[21:55:43] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
-[21:55:43] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
-[21:55:43] [Server thread/INFO]: Stopping server
-[21:55:43] [Server thread/INFO]: Saving players
-[21:55:43] [Server thread/INFO]: Saving worlds
-[21:55:43] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
-[21:55:43] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
-[21:55:43] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
-[21:55:45] [Client thread/INFO]: Stopping!
-[21:55:45] [Client thread/INFO]: SoundSystem shutting down...
-[21:55:45] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[08:33:45] [Client thread/INFO]: Setting user: Player389
+[08:33:45] [Client thread/INFO]: (Session ID is token:0:Player389)
+[08:33:47] [Client thread/INFO]: LWJGL Version: 2.9.4
+[08:33:47] [Client thread/INFO]: =============================
+[08:33:47] [Client thread/INFO]: Welcome to Apocalitticraft!
+[08:33:47] [Client thread/INFO]: -----------
+[08:33:47] [Client thread/INFO]: Version: 0.3.2-20180518
+[08:33:47] [Client thread/INFO]: =============================
+[08:33:47] [Client thread/INFO]: Reloading ResourceManager: Default
+[08:33:47] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[08:33:48] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[08:33:48] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[08:33:48] [Thread-6/INFO]: OpenAL initialized.
+[08:33:48] [Sound Library Loader/INFO]: Sound engine started
+[08:33:50] [Client thread/INFO]: Created: 512x512 textures-atlas
+[08:33:57] [Client thread/INFO]: Deleting level Copia di NON ELIMINARE MAI
+[08:33:57] [Client thread/INFO]: Attempt 1...
+[08:34:01] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[08:34:01] [Server thread/INFO]: Generating keypair
+[08:34:01] [Server thread/INFO]: Converting map!
+[08:34:01] [Server thread/INFO]: Scanning folders...
+[08:34:01] [Server thread/INFO]: Total conversion count is 0
+[08:34:02] [Server thread/INFO]: Preparing start region for level 0
+[08:34:03] [Server thread/INFO]: Preparing spawn area: 8%
+[08:34:04] [Server thread/INFO]: Preparing spawn area: 16%
+[08:34:05] [Server thread/INFO]: Preparing spawn area: 25%
+[08:34:06] [Server thread/INFO]: Preparing spawn area: 39%
+[08:34:07] [Server thread/INFO]: Preparing spawn area: 49%
+[08:34:08] [Server thread/INFO]: Preparing spawn area: 60%
+[08:34:09] [Server thread/INFO]: Preparing spawn area: 71%
+[08:34:10] [Server thread/INFO]: Preparing spawn area: 84%
+[08:34:11] [Server thread/INFO]: Preparing spawn area: 99%
+[08:34:11] [Server thread/INFO]: Changing view distance to 2, from 10
+[08:34:11] [Server thread/INFO]: Player389[local:E:a234933d] logged in with entity id 148 at (232.5, 63.0, -7.5)
+[08:34:11] [Server thread/INFO]: Player389 è entrato nel gioco
+[08:35:01] [Server thread/INFO]: Player389 ha appena guadagnato la conquista [Fare l'Inventario]
+[08:35:01] [Client thread/INFO]: [CHAT] Player389 ha appena guadagnato la conquista [Fare l'Inventario]
+[08:35:32] [Client thread/INFO]: Stopping!
+[08:35:32] [Client thread/INFO]: SoundSystem shutting down...
+[08:35:32] [Server thread/INFO]: Stopping server
+[08:35:32] [Server thread/INFO]: Saving players
+[08:35:32] [Server thread/INFO]: Saving worlds
+[08:35:32] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[08:35:32] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[08:35:32] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[08:35:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

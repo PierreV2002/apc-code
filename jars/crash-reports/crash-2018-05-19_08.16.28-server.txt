@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 19/05/18 8.16
+Description: Exception in server tick loop
+
+java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token ".", delete this token
+	The method getDefaultState() is undefined for the type Blocks
+
+	at net.minecraft.world.gen.structure.StructureVillagePieces$House2.addComponentParts(StructureVillagePieces.java:891)
+	at net.minecraft.world.gen.structure.StructureStart.generateStructure(StructureStart.java:49)
+	at net.minecraft.world.gen.structure.MapGenStructure.generateStructure(MapGenStructure.java:89)
+	at net.minecraft.world.gen.ChunkProviderGenerate.populate(ChunkProviderGenerate.java:405)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:234)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:138)
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:378)
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:130)
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:146)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:525)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.8
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_172, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 894605336 bytes (853 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Very likely; Jar signature invalidated
