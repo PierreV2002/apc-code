@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="end" key="selection"/>
+		<item value="Apocali" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="apocali"/>
 			<item value="Gameend"/>
 			<item value="endGame"/>
 			<item value="end"/>
@@ -22,7 +23,6 @@
 			<item value="slab"/>
 			<item value="planks"/>
 			<item value="log"/>
-			<item value="stone"/>
 		</list>
 		<list key="replacehistory">
 			<item value="VillagerMutante"/>

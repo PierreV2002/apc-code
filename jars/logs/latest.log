@@ -1,18 +1,2 @@
-[10:18:23] [Client thread/INFO]: Setting user: Player197
-[10:18:23] [Client thread/INFO]: (Session ID is token:0:Player197)
-[10:18:24] [Client thread/INFO]: LWJGL Version: 2.9.4
-[10:18:24] [Client thread/INFO]: =============================
-[10:18:24] [Client thread/INFO]: Welcome to Apocalitticraft!
-[10:18:24] [Client thread/INFO]: -----------
-[10:18:24] [Client thread/INFO]: Version: 0.3.2-20180519
-[10:18:24] [Client thread/INFO]: =============================
-[10:18:25] [Client thread/INFO]: Reloading ResourceManager: Default
-[10:18:25] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:18:25] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[10:18:25] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:18:25] [Thread-6/INFO]: OpenAL initialized.
-[10:18:25] [Sound Library Loader/INFO]: Sound engine started
-[10:18:28] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:19:09] [Client thread/INFO]: Stopping!
-[10:19:09] [Client thread/INFO]: SoundSystem shutting down...
-[10:19:09] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[11:38:06] [Client thread/INFO]: Setting user: Player781
+[11:38:06] [Client thread/INFO]: (Session ID is token:0:Player781)
