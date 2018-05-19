@@ -555,7 +555,7 @@ public class StructureVillagePieces
 
                 this.boundingBox.offset(0, this.field_143015_k - this.boundingBox.maxY + 4 - 1, 0);
             }
-
+   
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 6, 4, 8, Blocks.air.getDefaultState(), Blocks.air.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 1, 2, 0, 7, Blocks.farmland.getDefaultState(), Blocks.farmland.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 4, 0, 1, 5, 0, 7, Blocks.farmland.getDefaultState(), Blocks.farmland.getDefaultState(), false);
@@ -563,6 +563,15 @@ public class StructureVillagePieces
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 0, 0, 6, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 0, 5, 0, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 8, 5, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+           
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 0, 3, 8, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 1, 0, 6, 3, 8, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 1, 0, 5, 3, 0, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 1, 8, 5, 3, 8, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 1, 0, 2, 7, Blocks.iron_bars.getDefaultState(), Blocks.water.getDefaultState(), false);
+
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 3, 1, 8, 3, 2, 8, Blocks.air.getDefaultState(), Blocks.water.getDefaultState(), false);
+
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 3, 0, 1, 3, 0, 7, Blocks.water.getDefaultState(), Blocks.water.getDefaultState(), false);
 
             for (int i = 1; i <= 7; ++i)
