@@ -53,7 +53,7 @@ public class Blocks
     public static final Block gold_ore;
     public static final Block iron_ore;
     public static final Block coal_ore;
-    public static final Block antiradiations_insulator;
+    public static final Block log;
     public static final Block log2;
     public static final BlockLeaves leaves;
     public static final BlockLeaves leaves2;

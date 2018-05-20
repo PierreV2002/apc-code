@@ -148,3 +148,614 @@ CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_171\bin\java" -Xinc
 12:54:05 - "scalac" is not found on the PATH.  Scala files will not be recompiled
 09:46:42 - "scalac" is not found on the PATH.  Scala files will not be recompiled
 09:47:08 - !! Can not find server sources, try decompiling !!
+17:36:58 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:37:13 - '"C:\Program Files\Java\jdk1.8.0_171\bin\javac" -Xlint:-options -deprecation -g -source 1.6 -target 1.6 -classpath "jars\versions\1.8.8\1.8.8.jar;lib;lib\*;jars\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl-platform\2.9.4-nightly-20150209\lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar;jars\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar;jars\libraries\tv\twitch\twitch-external-platform\4.5\twitch-external-platform-4.5-natives-windows-64.jar;jars\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar;jars\libraries\org\apache\logging\log4j\log4j-api\2.0-beta9\log4j-api-2.0-beta9.jar;jars\libraries\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;jars\libraries\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;jars\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar;jars\libraries\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar;jars\libraries\com\google\guava\guava\17.0\guava-17.0.jar;jars\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar;jars\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar;jars\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar;jars\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;jars\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar;jars\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar;jars\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar;jars\libraries\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;jars\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar;jars\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;jars\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar;jars\libraries\commons-io\commons-io\2.4\commons-io-2.4.jar;jars\libraries\com\mojang\realms\1.7.39\realms-1.7.39.jar;jars\libraries\com\mojang\authlib\1.5.21\authlib-1.5.21.jar;jars\libraries\com\google\code\gson\gson\2.2.4\gson-2.2.4.jar;jars\libraries\com\mojang\netty\1.6\netty-1.6.jar;jars\libraries\tv\twitch\twitch\6.5\twitch-6.5.jar;jars\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar;jars\libraries\tv\twitch\twitch-platform\6.5\twitch-platform-6.5-natives-windows-64.jar;jars\libraries\net\java\jinput\jinput-platform\2.0.5\jinput-platform-2.0.5-natives-windows.jar;jars\libraries\org\apache\logging\log4j\log4j-core\2.0-beta9\log4j-core-2.0-beta9.jar;jars\libraries\io\netty\netty-all\4.0.23.Final\netty-all-4.0.23.Final.jar" -sourcepath src\minecraft -d bin\minecraft @temp\java_src_client.txt' failed : 1
+17:37:13 - 
+17:37:13 - == ERRORS FOUND in JAVA CODE ==
+17:37:13 - 
+17:37:13 - src\minecraft\net\minecraft\init\Blocks.java:242: error: variable antiradiations_insulator is already defined in class Blocks
+17:37:13 -     public static final Block antiradiations_insulator;
+17:37:13 -                               ^
+17:37:13 - 
+17:37:13 - src\minecraft\net\minecraft\item\Item.java:559: error: cannot find symbol
+17:37:14 -         registerItemBlock(Blocks.log, (new ItemMultiTexture(Blocks.log, Blocks.log, new Function<ItemStack, String>()
+17:37:14 -                                 ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\Item.java:559: error: cannot find symbol
+17:37:14 -         registerItemBlock(Blocks.log, (new ItemMultiTexture(Blocks.log, Blocks.log, new Function<ItemStack, String>()
+17:37:14 -                                                                   ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\Item.java:559: error: cannot find symbol
+17:37:14 -         registerItemBlock(Blocks.log, (new ItemMultiTexture(Blocks.log, Blocks.log, new Function<ItemStack, String>()
+17:37:14 -                                                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\entity\item\EntityItem.java:372: error: cannot find symbol
+17:37:14 -                 if (itemstack.getItem() == Item.getItemFromBlock(Blocks.log))
+17:37:14 -                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenAbstractTree.java:20: error: cannot find symbol
+17:37:14 -         return material == Material.air || material == Material.leaves || p_150523_1_ == Blocks.grass || p_150523_1_ == Blocks.dirt || p_150523_1_ == Blocks.log || p_150523_1_ == Blocks.log2 || p_150523_1_ == Blocks.sapling || p_150523_1_ == Blocks.vine;
+17:37:14 -                                                                                                                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenTrees.java:21: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181653_a = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.OAK);
+17:37:14 -                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenBigTree.java:240: error: cannot find symbol
+17:37:14 -         Block block = Blocks.log;
+17:37:14 -                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenBigTree.java:263: error: cannot find symbol
+17:37:14 -                 this.func_175937_a(blockpos, worldgenbigtree$foliagecoordinates, Blocks.log);
+17:37:14 -                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenSwamp.java:18: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181648_a = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.OAK);
+17:37:14 -                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\WorldServer.java:100: error: cannot find symbol
+17:37:14 -     private static final List<WeightedRandomChestContent> bonusChestContent = Lists.newArrayList(new WeightedRandomChestContent[] {new WeightedRandomChestContent(Items.stick, 0, 1, 3, 10), new WeightedRandomChestContent(Item.getItemFromBlock(Blocks.planks), 0, 1, 3, 10), new WeightedRandomChestContent(Item.getItemFromBlock(Blocks.log), 0, 1, 3, 10), new WeightedRandomChestContent(Items.stone_axe, 0, 1, 1, 3), new WeightedRandomChestContent(Items.wooden_axe, 0, 1, 1, 5), new WeightedRandomChestContent(Items.stone_pickaxe, 0, 1, 1, 3), new WeightedRandomChestContent(Items.wooden_pickaxe, 0, 1, 1, 5), new WeightedRandomChestContent(Items.apple, 0, 2, 3, 5), new WeightedRandomChestContent(Items.bread, 0, 2, 3, 3), new WeightedRandomChestContent(Item.getItemFromBlock(Blocks.log2), 0, 1, 3, 10)});
+17:37:14 -                                                                                                                                                                                                                                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\block\BlockCocoa.java:54: error: cannot find symbol
+17:37:14 -         return iblockstate.getBlock() == Blocks.log && iblockstate.getValue(BlockPlanks.VARIANT) == BlockPlanks.EnumType.JUNGLE;
+17:37:14 -                                                ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\block\BlockFire.java:93: error: cannot find symbol
+17:37:14 -         Blocks.fire.setFireInfo(Blocks.log, 5, 5);
+17:37:14 -                                       ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\block\BlockLeaves.java:113: error: cannot find symbol
+17:37:14 -                                 if (block != Blocks.log && block != Blocks.log2)
+17:37:14 -                                                    ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\block\BlockSapling.java:111: error: cannot find symbol
+17:37:14 -                 IBlockState iblockstate = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.JUNGLE);
+17:37:14 -                                                 ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\client\renderer\entity\RenderItem.java:554: error: cannot find symbol
+17:37:14 -         this.registerBlock(Blocks.log, BlockPlanks.EnumType.BIRCH.getMetadata(), "birch_log");
+17:37:14 -                                  ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\client\renderer\entity\RenderItem.java:555: error: cannot find symbol
+17:37:14 -         this.registerBlock(Blocks.log, BlockPlanks.EnumType.JUNGLE.getMetadata(), "jungle_log");
+17:37:14 -                                  ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\client\renderer\entity\RenderItem.java:556: error: cannot find symbol
+17:37:14 -         this.registerBlock(Blocks.log, BlockPlanks.EnumType.OAK.getMetadata(), "oak_log");
+17:37:14 -                                  ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\client\renderer\entity\RenderItem.java:557: error: cannot find symbol
+17:37:14 -         this.registerBlock(Blocks.log, BlockPlanks.EnumType.SPRUCE.getMetadata(), "spruce_log");
+17:37:14 -                                  ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\client\renderer\BlockModelShapes.java:208: error: cannot find symbol
+17:37:14 -         this.registerBlockWithStateMapper(Blocks.log, (new StateMap.Builder()).withName(BlockOldLog.VARIANT).withSuffix("_log").build());
+17:37:14 -                                                 ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\client\resources\model\ModelBakery.java:299: error: cannot find symbol
+17:37:14 -         this.variantNames.put(Item.getItemFromBlock(Blocks.log), Lists.newArrayList(new String[] {"oak_log", "spruce_log", "birch_log", "jungle_log"}));
+17:37:14 -                                                           ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\init\Blocks.java:279: error: cannot find symbol
+17:37:14 -             log = getRegisteredBlock("log");
+17:37:14 -             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\ItemAxe.java:11: error: cannot find symbol
+17:37:14 -     private static final Set<Block> EFFECTIVE_ON = Sets.newHashSet(new Block[] {Blocks.planks, Blocks.bookshelf, Blocks.log, Blocks.log2, Blocks.chest, Blocks.pumpkin, Blocks.lit_pumpkin, Blocks.melon_block, Blocks.ladder});
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\ItemDye.java:70: error: cannot find symbol
+17:37:14 -                 if (block == Blocks.log && iblockstate.getValue(BlockPlanks.VARIANT) == BlockPlanks.EnumType.JUNGLE)
+17:37:14 -                                    ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\crafting\CraftingManager.java:110: error: cannot find symbol
+17:37:14 -         this.addRecipe(new ItemStack(Blocks.planks, 4, BlockPlanks.EnumType.OAK.getMetadata()), new Object[] {"#", '#', new ItemStack(Blocks.log, 1, BlockPlanks.EnumType.OAK.getMetadata())});
+17:37:14 -                                                                                                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\crafting\CraftingManager.java:111: error: cannot find symbol
+17:37:14 -         this.addRecipe(new ItemStack(Blocks.planks, 4, BlockPlanks.EnumType.SPRUCE.getMetadata()), new Object[] {"#", '#', new ItemStack(Blocks.log, 1, BlockPlanks.EnumType.SPRUCE.getMetadata())});
+17:37:14 -                                                                                                                                                ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\crafting\CraftingManager.java:112: error: cannot find symbol
+17:37:14 -         this.addRecipe(new ItemStack(Blocks.planks, 4, BlockPlanks.EnumType.BIRCH.getMetadata()), new Object[] {"#", '#', new ItemStack(Blocks.log, 1, BlockPlanks.EnumType.BIRCH.getMetadata())});
+17:37:14 -                                                                                                                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\crafting\CraftingManager.java:113: error: cannot find symbol
+17:37:14 -         this.addRecipe(new ItemStack(Blocks.planks, 4, BlockPlanks.EnumType.JUNGLE.getMetadata()), new Object[] {"#", '#', new ItemStack(Blocks.log, 1, BlockPlanks.EnumType.JUNGLE.getMetadata())});
+17:37:14 -                                                                                                                                                ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\item\crafting\FurnaceRecipes.java:47: error: cannot find symbol
+17:37:14 -         this.addSmeltingRecipeForBlock(Blocks.log, new ItemStack(Items.coal, 1, 1), 0.15F);
+17:37:14 -                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\stats\AchievementList.java:29: error: cannot find symbol
+17:37:14 -     public static Achievement mineWood = (new Achievement("achievement.mineWood", "mineWood", 2, 1, Blocks.log, openInventory)).registerStat();
+17:37:14 -                                                                                                           ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenForest.java:16: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181629_a = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.BIRCH);
+17:37:14 -                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenTaiga2.java:17: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181645_a = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.SPRUCE);
+17:37:14 -                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\biome\BiomeGenJungle.java:28: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181620_aE = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.JUNGLE);
+17:37:14 -                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenTaiga1.java:17: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181636_a = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.SPRUCE);
+17:37:14 -                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\feature\WorldGenMegaPineTree.java:19: error: cannot find symbol
+17:37:14 -     private static final IBlockState field_181633_e = Blocks.log.getDefaultState().withProperty(BlockOldLog.VARIANT, BlockPlanks.EnumType.SPRUCE);
+17:37:14 -                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:649: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 2, 1, 3, 2, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:649: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 2, 1, 3, 2, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:650: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 5, 0, 2, 5, 3, 2, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:650: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 5, 0, 2, 5, 3, 2, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:651: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 7, 1, 3, 7, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:651: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 7, 1, 3, 7, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:652: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 5, 0, 7, 5, 3, 7, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:652: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 5, 0, 7, 5, 3, 7, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\ComponentScatteredFeaturePieces.java:676: error: cannot find symbol
+17:37:14 -                         this.replaceAirAndLiquidDownwards(worldIn, Blocks.log.getDefaultState(), j1, -1, i1, structureBoundingBoxIn);
+17:37:14 -                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1658: error: cannot find symbol
+17:37:14 -                 if (p_175847_1_.getBlock() == Blocks.log || p_175847_1_.getBlock() == Blocks.log2)
+17:37:14 -                                                     ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:459: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 0, 0, 0, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:459: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 0, 0, 0, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:460: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 0, 0, 6, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:460: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 0, 0, 6, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:461: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 12, 0, 0, 12, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:461: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 12, 0, 0, 12, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:462: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 0, 11, 0, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                           ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:462: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 0, 11, 0, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                         ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:463: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 8, 11, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                           ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:463: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 8, 11, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                         ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:562: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 0, 0, 0, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:562: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 0, 0, 0, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:563: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 0, 0, 6, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:563: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 0, 0, 6, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:564: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 0, 5, 0, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:564: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 0, 5, 0, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:565: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 8, 5, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:565: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 0, 8, 5, 0, 8, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:567: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 0, 3, 8, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:568: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 6, 1, 0, 6, 3, 8, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:569: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 1, 0, 5, 3, 0, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:570: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 1, 8, 5, 3, 8, Blocks.antiradiations_insulator.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                                             ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:664: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 2, 1, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:665: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 2, 4, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:666: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 8, 2, 1, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:667: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 8, 2, 4, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:895: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 0, 4, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:895: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 0, 4, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:896: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 3, 1, 0, 3, 4, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:896: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 3, 1, 0, 3, 4, 0, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:897: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 6, 0, 4, 6, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:897: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 6, 0, 4, 6, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1057: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 2, 1, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1058: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 2, 4, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1061: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 4, 2, 0, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1063: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 6, 2, 0, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1064: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 8, 2, 1, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1067: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 8, 2, 4, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1069: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 8, 2, 6, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1072: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 8, 2, 9, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1073: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 2, 2, 6, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1076: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 2, 2, 9, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1077: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 4, 4, 10, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1079: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 6, 4, 10, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1164: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 4, 0, 4, 4, 4, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                          ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1164: error: cannot find symbol
+17:37:14 -             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 4, 0, 4, 4, 4, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                        ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1851: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 4, 1, 2, 4, 3, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1851: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 4, 1, 2, 4, 3, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1855: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 5, 1, 2, 5, 3, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                              ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1855: error: cannot find symbol
+17:37:14 -                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 5, 1, 2, 5, 3, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
+17:37:14 -                                                                                                                            ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1863: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 4, 2, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1864: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 4, 3, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1865: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 3, 4, 1, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1866: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 3, 4, 2, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - src\minecraft\net\minecraft\world\gen\structure\StructureVillagePieces.java:1867: error: cannot find symbol
+17:37:14 -             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 3, 4, 3, structureBoundingBoxIn);
+17:37:14 -                                               ^
+17:37:14 - 
+17:37:14 -   symbol:   variable log
+17:37:14 -   location: class Blocks
+17:37:14 - 100 errors
+17:37:14 - ==================
+17:37:14 - 
+17:37:14 - !! Can not find server sources, try decompiling !!
+17:39:45 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:40:05 - !! Can not find server sources, try decompiling !!
+17:40:09 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+17:40:18 - !! Can not find server md5s !!

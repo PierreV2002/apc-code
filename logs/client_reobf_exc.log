@@ -4751,7 +4751,7 @@ INFO: Processed 3782 -> 3782
 INFO: Processing net/minecraft/world/biome/BiomeGenOcean.class
 INFO: Processed 1222 -> 1222
 INFO: Processing net/minecraft/world/biome/BiomeGenPlains.class
-INFO: Processed 4867 -> 4864
+INFO: Processed 4870 -> 4867
 INFO: Processing net/minecraft/world/biome/BiomeGenRiver.class
 INFO: Processed 481 -> 481
 INFO: Processing net/minecraft/world/biome/BiomeGenSavanna$Mutated.class
@@ -5217,11 +5217,11 @@ INFO: Processed 7167 -> 7161
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Field1.class
 INFO: Processed 6545 -> 6539
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Field2.class
-INFO: Processed 6123 -> 6117
+INFO: Processed 6365 -> 6359
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Hall.class
 INFO: Processed 7466 -> 7460
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House1.class
-INFO: Processed 7220 -> 7214
+INFO: Processed 7271 -> 7265
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House2.class
 INFO: Processed 8929 -> 8923
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$House3.class
@@ -5243,7 +5243,7 @@ INFO: Processed 9512 -> 9497
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Well.class
 INFO: Processed 4917 -> 4911
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$WoodHut.class
-INFO: Processed 7008 -> 7002
+INFO: Processed 7028 -> 7022
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces.class
 FINE: Access: net/minecraft/world/gen/structure/StructureVillagePieces/access$000(Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent; [INVOKESTATIC net/minecraft/world/gen/structure/StructureVillagePieces/func_176069_e (Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent;]
 FINE: Access: net/minecraft/world/gen/structure/StructureVillagePieces/access$100(Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent; [INVOKESTATIC net/minecraft/world/gen/structure/StructureVillagePieces/func_176066_d (Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent;]
