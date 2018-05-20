@@ -1,48 +1,18 @@
-[21:16:59] [Client thread/INFO]: Setting user: Player28
-[21:16:59] [Client thread/INFO]: (Session ID is token:0:Player28)
-[21:17:00] [Client thread/INFO]: LWJGL Version: 2.9.4
-[21:17:00] [Client thread/INFO]: =============================
-[21:17:00] [Client thread/INFO]: Welcome to Apocalitticraft!
-[21:17:00] [Client thread/INFO]: -----------
-[21:17:00] [Client thread/INFO]: Version: 0.3.2-20180519
-[21:17:00] [Client thread/INFO]: =============================
-[21:17:01] [Client thread/INFO]: Reloading ResourceManager: Default
-[21:17:01] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[21:17:01] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[21:17:01] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[21:17:01] [Thread-6/INFO]: OpenAL initialized.
-[21:17:02] [Sound Library Loader/INFO]: Sound engine started
-[21:17:04] [Client thread/INFO]: Created: 512x512 textures-atlas
-[21:17:11] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
-[21:17:11] [Server thread/INFO]: Generating keypair
-[21:17:12] [Server thread/INFO]: Converting map!
-[21:17:12] [Server thread/INFO]: Scanning folders...
-[21:17:12] [Server thread/INFO]: Total conversion count is 0
-[21:17:13] [Server thread/INFO]: Preparing start region for level 0
-[21:17:14] [Server thread/INFO]: Preparing spawn area: 7%
-[21:17:15] [Server thread/INFO]: Preparing spawn area: 14%
-[21:17:16] [Server thread/INFO]: Preparing spawn area: 23%
-[21:17:17] [Server thread/INFO]: Preparing spawn area: 34%
-[21:17:18] [Server thread/INFO]: Preparing spawn area: 46%
-[21:17:19] [Server thread/INFO]: Preparing spawn area: 55%
-[21:17:20] [Server thread/INFO]: Preparing spawn area: 68%
-[21:17:21] [Server thread/INFO]: Preparing spawn area: 82%
-[21:17:22] [Server thread/INFO]: Preparing spawn area: 95%
-[21:17:22] [Server thread/INFO]: Changing view distance to 16, from 10
-[21:17:22] [Server thread/INFO]: Player28[local:E:c89e5a69] logged in with entity id 148 at (236.5, 70.0, 5.5)
-[21:17:22] [Server thread/INFO]: Player28 è entrato nel gioco
-[21:17:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 13185ms behind, skipping 263 tick(s)
-[21:17:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12367ms behind, skipping 247 tick(s)
-[21:18:14] [Server thread/INFO]: Saving and pausing game...
-[21:18:14] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
-[21:18:17] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
-[21:18:17] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
-[21:18:17] [Server thread/INFO]: Stopping server
-[21:18:17] [Server thread/INFO]: Saving players
-[21:18:17] [Server thread/INFO]: Saving worlds
-[21:18:17] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
-[21:18:17] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
-[21:18:17] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
-[21:18:18] [Client thread/INFO]: Stopping!
-[21:18:18] [Client thread/INFO]: SoundSystem shutting down...
-[21:18:18] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[09:46:08] [Client thread/INFO]: Setting user: Player699
+[09:46:08] [Client thread/INFO]: (Session ID is token:0:Player699)
+[09:46:09] [Client thread/INFO]: LWJGL Version: 2.9.4
+[09:46:09] [Client thread/INFO]: =============================
+[09:46:09] [Client thread/INFO]: Welcome to Apocalitticraft!
+[09:46:09] [Client thread/INFO]: -----------
+[09:46:09] [Client thread/INFO]: Version: 0.3.2-20180520
+[09:46:09] [Client thread/INFO]: =============================
+[09:46:09] [Client thread/INFO]: Reloading ResourceManager: Default
+[09:46:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:46:10] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[09:46:10] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:46:10] [Thread-6/INFO]: OpenAL initialized.
+[09:46:10] [Sound Library Loader/INFO]: Sound engine started
+[09:46:13] [Client thread/INFO]: Created: 512x512 textures-atlas
+[09:46:30] [Client thread/INFO]: Stopping!
+[09:46:30] [Client thread/INFO]: SoundSystem shutting down...
+[09:46:30] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

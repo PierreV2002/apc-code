@@ -535,7 +535,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.scale(f, f, f);
         this.drawCenteredString(this.fontRendererObj, this.splashText, 0, -8, -256);
         GlStateManager.popMatrix();
-        String s = "Apocalitticraft 0.3.2-20180519";
+        String s = "Apocalitticraft 0.3.2-20180520";
 
         if (this.mc.isDemo())
         {
