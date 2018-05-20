@@ -24,7 +24,7 @@ public class BiomeGenPlains extends BiomeGenBase
         this.theBiomeDecorator.flowersPerChunk = 6;
         this.theBiomeDecorator.grassPerChunk = 20;
         this.setBiomeName("Bioma RadioAttivo");
-        this.topBlock = Blocks.uranium_block.getDefaultState(); //Cambia il Blocco Di superficie
+        this.topBlock = Blocks.antimatter_block.getDefaultState(); //Cambia il Blocco Di superficie
         this.fillerBlock = Blocks.mossy_cobblestone.getDefaultState(); //Cambia i 3 blocchi di superficie
         
         

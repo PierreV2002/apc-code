@@ -765,18 +765,18 @@ public class StructureVillagePieces
                 }
             }
 
-            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 0, 1, 5, Blocks.radioactive_cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 1, 0, 0, 1, 5, Blocks.antimatter_block.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 1, 5, 8, 1, 5, Blocks.radioactive_cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 8, 1, 0, 8, 1, 4, Blocks.radioactive_cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
-            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 2, 1, 0, 7, 1, 0, Blocks.cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
-            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 0, 0, 4, 0, Blocks.cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
-            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 5, 0, 4, 5, Blocks.cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 2, 1, 0, 7, 1, 0, Blocks.antimatter_block.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 0, 0, 4, 0, Blocks.antimatter_block.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 5, 0, 4, 5, Blocks.antimatter_block.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 8, 2, 5, 8, 4, 5, Blocks.radioactive_cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 8, 2, 0, 8, 4, 0, Blocks.cobblestone.getDefaultState(), Blocks.cobblestone.getDefaultState(), false);
-            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 1, 0, 4, 4, Blocks.planks.getDefaultState(), Blocks.planks.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 0, 2, 1, 0, 4, 4, Blocks.antiradiations_insulator.getDefaultState(), Blocks.planks.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 2, 5, 7, 4, 5, Blocks.antiradiations_insulator.getDefaultState(), Blocks.planks.getDefaultState(), false);
             this.fillWithBlocks(worldIn, structureBoundingBoxIn, 8, 2, 1, 8, 4, 4, Blocks.antiradiations_insulator.getDefaultState(), Blocks.planks.getDefaultState(), false);
-            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 2, 0, 7, 4, 0, Blocks.planks.getDefaultState(), Blocks.planks.getDefaultState(), false);
+            this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 2, 0, 7, 4, 0, Blocks.antiradiations_insulator.getDefaultState(), Blocks.planks.getDefaultState(), false);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 4, 2, 0, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 5, 2, 0, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 6, 2, 0, structureBoundingBoxIn);
@@ -784,12 +784,12 @@ public class StructureVillagePieces
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 5, 3, 0, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 6, 3, 0, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.air.getDefaultState(), 0, 2, 2, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 0, 2, 3, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 0, 3, 2, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 0, 3, 3, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 8, 2, 2, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 8, 2, 3, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.air.getDefaultState(), 8, 3, 2, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.iron_bars.getDefaultState(), 0, 2, 3, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.iron_bars.getDefaultState(), 0, 3, 2, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.iron_bars.getDefaultState(), 0, 3, 3, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.iron_bars.getDefaultState(), 8, 2, 2, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.iron_bars.getDefaultState(), 8, 2, 3, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.iron_bars.getDefaultState(), 8, 3, 2, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 8, 3, 3, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 2, 2, 5, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.glass_pane.getDefaultState(), 3, 2, 5, structureBoundingBoxIn);
@@ -1855,13 +1855,13 @@ public class StructureVillagePieces
                 this.fillWithBlocks(worldIn, structureBoundingBoxIn, 1, 5, 1, 2, 5, 3, Blocks.log.getDefaultState(), Blocks.log.getDefaultState(), false);
             }
 
-            this.setBlockState(worldIn, Blocks.log.getDefaultState(), 1, 4, 0, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.log.getDefaultState(), 2, 4, 0, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.log.getDefaultState(), 1, 4, 4, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.log.getDefaultState(), 2, 4, 4, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 4, 1, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.antiradiations_insulator.getDefaultState(), 1, 4, 0, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.antiradiations_insulator.getDefaultState(), 2, 4, 0, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.antiradiations_insulator.getDefaultState(), 1, 4, 4, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.antiradiations_insulator.getDefaultState(), 2, 4, 4, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.antiradiations_insulator.getDefaultState(), 0, 4, 1, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 4, 2, structureBoundingBoxIn);
-            this.setBlockState(worldIn, Blocks.log2.getDefaultState(), 0, 4, 3, structureBoundingBoxIn);
+            this.setBlockState(worldIn, Blocks.log.getDefaultState(), 0, 4, 3, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 3, 4, 1, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 3, 4, 2, structureBoundingBoxIn);
             this.setBlockState(worldIn, Blocks.log.getDefaultState(), 3, 4, 3, structureBoundingBoxIn);
