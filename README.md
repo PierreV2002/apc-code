@@ -1,24 +1,24 @@
-# Apocalitticraft source code
-This is the original source code from Apocalitticraft
+# Codice sorgente di Apocalitticraft
+Questo è il codice ufficiale della mod Apocalitticraft
 
-All rights to the MCP team
+Tutti i diritti al Team MCP
 
-# Set up workspace
-Set up the MCP software. You need:
+# Imposta l'ambiente di sviluppo
+Installa MCP. Avrai bisogno di:
 - Java JDK
-- An OpenGL compatible graphic driver
-- The latest version of Eclipse EE
+- Un driver grafico compatibile con OpenGl 2.0 o superiori
+- L'ultima versione di Eclipse EE
 
-Open Eclipse. Set as workspace mcpdir (The location of the source code folder)\eclipse
+Apri Eclipse. Imposta come workspase mcpdir (La cartella dei sorgenti)\eclipse
 
-# Recompiling and packing jar
-- Open "recompile.bat" or "recompile.sh" and wait (don't pay attention to the server error)
-- Open "reobfuscate.bat" or "reobfuscate.sh" and wait (don't pay attention to the server error)
-- Open a clean jar of MC 1.8.8
-- Copy all the contents of the "\reobf\minecraft" folder into jar
-The assets and textures will not be outputted into the reobf folder, so you have to copy them into the jar manually
+# Ricompilazione e costruzione del JAR
+- Apri "recompile.bat" o "recompile.sh" e aspetta (non prestare attenzione all'errore del server)
+- Apri "reobfuscate.bat" o "reobfuscate.sh" e aspetta (non prestare attenzione all'errore del server)
+- Apri un JAR pulito di MC 1.8.8
+- Copia tutti i condenuti della cartella "\reobf\minecraft" nel jar
+Gli assets e le textures non saranno messi in quella cartella, quindi devi metterli manualmente nel JAR
 
-# APC developers and contributors:
+# Sviluppatori:
 - Pierre Vicquery (PierreV2002)
 - Fabien Dufour (Palpatraz02)
 - Samuele Lolli (Samuele1414)
