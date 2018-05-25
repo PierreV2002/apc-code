@@ -1,18 +1,35 @@
-[17:39:28] [Client thread/INFO]: Setting user: Player671
-[17:39:28] [Client thread/INFO]: (Session ID is token:0:Player671)
-[17:39:29] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:39:29] [Client thread/INFO]: =============================
-[17:39:29] [Client thread/INFO]: Welcome to Apocalitticraft!
-[17:39:29] [Client thread/INFO]: -----------
-[17:39:29] [Client thread/INFO]: Version: 0.3.2-20180520
-[17:39:29] [Client thread/INFO]: =============================
-[17:39:30] [Client thread/INFO]: Reloading ResourceManager: Default
-[17:39:30] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:39:30] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[17:39:30] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:39:30] [Thread-6/INFO]: OpenAL initialized.
-[17:39:31] [Sound Library Loader/INFO]: Sound engine started
-[17:39:33] [Client thread/INFO]: Created: 512x512 textures-atlas
-[17:39:35] [Client thread/INFO]: Stopping!
-[17:39:35] [Client thread/INFO]: SoundSystem shutting down...
-[17:39:36] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[17:41:20] [Client thread/INFO]: Setting user: Player56
+[17:41:20] [Client thread/INFO]: (Session ID is token:0:Player56)
+[17:41:22] [Client thread/INFO]: LWJGL Version: 2.9.4
+[17:41:22] [Client thread/INFO]: =============================
+[17:41:22] [Client thread/INFO]: Welcome to Apocalitticraft!
+[17:41:22] [Client thread/INFO]: -----------
+[17:41:22] [Client thread/INFO]: Version: 0.3.2-20180520
+[17:41:22] [Client thread/INFO]: =============================
+[17:41:22] [Client thread/INFO]: Reloading ResourceManager: Default
+[17:41:22] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[17:41:23] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[17:41:23] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[17:41:23] [Thread-6/INFO]: OpenAL initialized.
+[17:41:23] [Sound Library Loader/INFO]: Sound engine started
+[17:41:25] [Client thread/INFO]: Created: 512x512 textures-atlas
+[17:41:29] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[17:41:29] [Server thread/INFO]: Generating keypair
+[17:41:29] [Server thread/INFO]: Preparing start region for level 0
+[17:41:30] [Server thread/INFO]: Preparing spawn area: 68%
+[17:41:31] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:41:31] [Server thread/INFO]: Player56[local:E:5cd2a7c1] logged in with entity id 374 at (206.1259077877344, 72.74848797749725, 64.18759202149928)
+[17:41:31] [Server thread/INFO]: Player56 è entrato nel gioco
+[18:12:47] [Server thread/INFO]: Saving and pausing game...
+[18:12:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[18:12:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[18:12:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[18:12:48] [Client thread/INFO]: Stopping!
+[18:12:48] [Client thread/INFO]: SoundSystem shutting down...
+[18:12:48] [Server thread/INFO]: Stopping server
+[18:12:48] [Server thread/INFO]: Saving players
+[18:12:48] [Server thread/INFO]: Saving worlds
+[18:12:48] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[18:12:48] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[18:12:48] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[18:12:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
