@@ -307,7 +307,7 @@ public class GuiChat extends GuiScreen
     	//rettangolo
     	drawRect(this.height, 20,  22, 50, Integer.MAX_VALUE);
     	
-    	 this.inputField.setText("Ciao ");
+    	//.inputField.setText("Ciao ");
        
     	drawRect(2, this.height - 14, this.width - 2, this.height - 2, Integer.MIN_VALUE);
         this.inputField.drawTextBox();

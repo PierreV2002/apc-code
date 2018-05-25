@@ -1,0 +1,28 @@
+package prova.speriamo;
+
+
+
+ import prova.speriamo.provola;
+ import net.minecraft.client.Minecraft;
+ import net.minecraft.client.gui.GuiIngame;
+ 
+public class provola extends GuiIngame  {
+static Minecraft getmc = Minecraft.getMinecraft();
+
+public provola(Minecraft mcIn) {
+super(mcIn);
+
+}
+
+public static void render() {
+	
+	getmc.fontRendererObj.drawString("Ciao" + getmc.getSession().getUsername(), 1, 1, 0xffffff);
+	getmc.fontRendererObj.drawString("Buon Divertimento", 2, 10, 0xffffff);
+	
+	
+
+}
+
+
+
+}

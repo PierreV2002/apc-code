@@ -4286,3 +4286,105 @@ java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclips
 	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-05-25 19:34:05.867
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Impossibile trovare il percorso specificato)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-05-25 20:19:53.332
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Impossibile trovare il percorso specificato)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-05-25 20:27:51.141
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Impossibile trovare il percorso specificato)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-05-25 20:44:45.420
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Impossibile trovare il percorso specificato)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-05-25 20:49:45.724
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Impossibile trovare il percorso specificato)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.core.resources 4 568 2018-05-25 20:55:00.655
+!MESSAGE Could not write metadata for '/RemoteSystemsTempFiles'.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\Samuele\Documents\GitHub\apc-code\eclipse\.metadata\.plugins\org.eclipse.core.resources\.projects\RemoteSystemsTempFiles\.markers.snap (Impossibile trovare il percorso specificato)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:45)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(SafeChunkyOutputStream.java:41)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1768)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(SaveManager.java:1852)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1224)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1165)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:52)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
