@@ -11,4 +11,7 @@
 <fullyQualifiedTypeName name="net.minecraft.entity.passive.EntityMob2a"/>
 <fullyQualifiedTypeName name="net.minecraft.world.biome.BiomeGenBase.SpawnListEntry"/>
 <fullyQualifiedTypeName name="net.minecraft.block.material.Material"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="org.apache.http.impl.conn.tsccm.WaitingThread"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
 </qualifiedTypeNameHistroy>

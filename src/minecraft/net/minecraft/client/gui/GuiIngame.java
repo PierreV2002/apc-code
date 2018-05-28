@@ -48,7 +48,7 @@ public class GuiIngame extends Gui
     private static final ResourceLocation vignetteTexPath = new ResourceLocation("textures/misc/vignette.png");
     private static final ResourceLocation widgetsTexPath = new ResourceLocation("textures/gui/widgets.png");
     private static final ResourceLocation pumpkinBlurTexPath = new ResourceLocation("textures/misc/pumpkinblur.png");
-    private final Random rand = new Random();
+    protected final static Random rand = new Random();
     private final Minecraft mc;
     private final RenderItem itemRenderer;
 
