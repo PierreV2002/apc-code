@@ -709,7 +709,7 @@ INFO: Processed 1412 -> 1412
 INFO: Processing net/minecraft/client/gui/GuiButtonRealmsProxy.class
 INFO: Processed 2644 -> 2644
 INFO: Processing net/minecraft/client/gui/GuiChat.class
-INFO: Processed 8593 -> 8560
+INFO: Processed 8617 -> 8585
 INFO: Processing net/minecraft/client/gui/GuiClickableScrolledSelectionListProxy.class
 INFO: Processed 3522 -> 3522
 INFO: Processing net/minecraft/client/gui/GuiCommandBlock.class
@@ -761,7 +761,7 @@ INFO: Processed 2660 -> 2660
 INFO: Processing net/minecraft/client/gui/GuiIngame$1.class
 INFO: Processed 1263 -> 1263
 INFO: Processing net/minecraft/client/gui/GuiIngame.class
-INFO: Processed 29900 -> 29911
+INFO: Processed 29946 -> 29958
 INFO: Processing net/minecraft/client/gui/GuiIngameMenu.class
 INFO: Processed 4478 -> 4472
 INFO: Processing net/minecraft/client/gui/GuiKeyBindingList$1.class
@@ -5213,9 +5213,9 @@ INFO: Processed 11294 -> 11282
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$1.class
 INFO: Processed 859 -> 827
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Church.class
-INFO: Processed 7167 -> 7161
+INFO: Processed 7202 -> 7196
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Field1.class
-INFO: Processed 6545 -> 6539
+INFO: Processed 6582 -> 6576
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Field2.class
 INFO: Processed 6365 -> 6359
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Hall.class
@@ -5243,7 +5243,7 @@ INFO: Processed 9512 -> 9497
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$Well.class
 INFO: Processed 4917 -> 4911
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces$WoodHut.class
-INFO: Processed 7028 -> 7022
+INFO: Processed 6993 -> 6987
 INFO: Processing net/minecraft/world/gen/structure/StructureVillagePieces.class
 FINE: Access: net/minecraft/world/gen/structure/StructureVillagePieces/access$000(Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent; [INVOKESTATIC net/minecraft/world/gen/structure/StructureVillagePieces/func_176069_e (Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent;]
 FINE: Access: net/minecraft/world/gen/structure/StructureVillagePieces/access$100(Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent; [INVOKESTATIC net/minecraft/world/gen/structure/StructureVillagePieces/func_176066_d (Lnet/minecraft/world/gen/structure/StructureVillagePieces$Start;Ljava/util/List;Ljava/util/Random;IIILnet/minecraft/util/EnumFacing;I)Lnet/minecraft/world/gen/structure/StructureComponent;]
@@ -5319,4 +5319,5 @@ FINE: Access: net/minecraft/world/storage/WorldInfo/access$400(Lnet/minecraft/wo
 FINE: Access: net/minecraft/world/storage/WorldInfo/access$300(Lnet/minecraft/world/storage/WorldInfo;)I [GETFIELD net/minecraft/world/storage/WorldInfo/spawnX I]
 FINE: Access: net/minecraft/world/storage/WorldInfo/access$1000(Lnet/minecraft/world/storage/WorldInfo;)I [GETFIELD net/minecraft/world/storage/WorldInfo/rainTime I]
 INFO: Processed 17214 -> 17253
+INFO: Copying prova/speriamo/provola.class
 INFO: Processed temp\client_recomp.jar
