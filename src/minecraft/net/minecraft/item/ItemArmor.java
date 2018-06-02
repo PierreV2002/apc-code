@@ -15,8 +15,12 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.BlockPos;
 import net.minecraft.util.EntitySelectors;
+import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.world.World;
 
+
+
+import net.minecraft.world.World;
 public class ItemArmor extends Item
 {
     /** Holds the 'base' maxDamage that each armorType have. */
@@ -83,7 +87,12 @@ public class ItemArmor extends Item
         this.setMaxDamage(material.getDurability(armorType));
         this.maxStackSize = 1;
         this.setCreativeTab(CreativeTabs.tabCombat);
+       
         BlockDispenser.dispenseBehaviorRegistry.putObject(this, dispenserBehavior);
+   
+        
+
+
     }
 
     public int getColorFromItemStack(ItemStack stack, int renderPass)

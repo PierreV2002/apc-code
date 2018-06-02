@@ -30,15 +30,15 @@ public static void render()   {
 	 random = rand.nextInt(16);
 	 
 	 
-	 if (random < 1) {
+	// if (random < 1) {
 		 
 		// TimeUnit.SECONDS.sleep(10);	 
-	getmc.fontRendererObj.drawString("Modalità " + coso + " Attivata", 14, 30, 0xffffff); 
+	//getmc.fontRendererObj.drawString("Modalità " + coso + " Attivata", 14, 30, 0xffffff); 
 //	TimeUnit.SECONDS.sleep(18);
 	
 
 	
-	 }
+	// }
 	
 	 int x = (int) getmc.thePlayer.chasingPosX;
 	 int z = (int) getmc.thePlayer.chasingPosZ;
