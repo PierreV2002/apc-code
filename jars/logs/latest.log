@@ -1,18 +1,18 @@
-[13:41:10] [Client thread/INFO]: Setting user: Player65
-[13:41:10] [Client thread/INFO]: (Session ID is token:0:Player65)
-[13:41:11] [Client thread/INFO]: LWJGL Version: 2.9.4
-[13:41:11] [Client thread/INFO]: =============================
-[13:41:11] [Client thread/INFO]: Welcome to Apocalitticraft!
-[13:41:11] [Client thread/INFO]: -----------
-[13:41:11] [Client thread/INFO]: Version: 0.3.2-20180608
-[13:41:11] [Client thread/INFO]: =============================
-[13:41:12] [Client thread/INFO]: Reloading ResourceManager: Default
-[13:41:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[13:41:12] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[13:41:12] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[13:41:12] [Thread-6/INFO]: OpenAL initialized.
-[13:41:13] [Sound Library Loader/INFO]: Sound engine started
-[13:41:15] [Client thread/INFO]: Created: 512x512 textures-atlas
-[13:41:35] [Client thread/INFO]: Stopping!
-[13:41:35] [Client thread/INFO]: SoundSystem shutting down...
-[13:41:35] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[20:28:09] [Client thread/INFO]: Setting user: Player585
+[20:28:09] [Client thread/INFO]: (Session ID is token:0:Player585)
+[20:28:09] [Client thread/INFO]: LWJGL Version: 2.9.4
+[20:28:09] [Client thread/INFO]: =============================
+[20:28:09] [Client thread/INFO]: Welcome to Apocalitticraft!
+[20:28:09] [Client thread/INFO]: -----------
+[20:28:09] [Client thread/INFO]: Version: 0.3.2-20180608
+[20:28:09] [Client thread/INFO]: =============================
+[20:28:10] [Client thread/INFO]: Reloading ResourceManager: Default
+[20:28:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[20:28:11] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[20:28:11] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[20:28:11] [Thread-6/INFO]: OpenAL initialized.
+[20:28:11] [Sound Library Loader/INFO]: Sound engine started
+[20:28:14] [Client thread/INFO]: Created: 512x512 textures-atlas
+[20:28:26] [Client thread/INFO]: Stopping!
+[20:28:26] [Client thread/INFO]: SoundSystem shutting down...
+[20:28:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
