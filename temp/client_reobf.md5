@@ -230,7 +230,7 @@ net/minecraft/block/BlockTallGrass eeecdbe6e8159cd7854003d8bdeb86f2
 net/minecraft/block/BlockTNT 68fa7b7ed9bdc43acd8b23c0c36dc77b
 net/minecraft/block/BlockTorch$1 cc4592765809b276e82e4a67cb682653
 net/minecraft/block/BlockTorch$2 cb530c40aa1bad2ecb02814c88ed967f
-net/minecraft/block/BlockTorch f70fe25a847a1ab8563d7479e1bedfb6
+net/minecraft/block/BlockTorch 120ac9ed957ef2aa0546dc031c4dbbef
 net/minecraft/block/BlockTrapDoor$1 5c1980e866a2fbd03bd4936403cb4b22
 net/minecraft/block/BlockTrapDoor$DoorHalf 6c01e1642cbdbd53be36b61301d41ce8
 net/minecraft/block/BlockTrapDoor 063e3fd91f4cf322d8dacf4ad5ae8b5f
@@ -300,7 +300,7 @@ net/minecraft/client/Minecraft$6 51b697b5bb3f13cfabc3b95ab181b81c
 net/minecraft/client/Minecraft$7 062ccf4b5bdd08cd1e6b7e709c141f9d
 net/minecraft/client/Minecraft$8 23fed7eddda692e882cc3647da15170b
 net/minecraft/client/Minecraft$9 f55abebbdd032acd5beaea28211ae4a5
-net/minecraft/client/Minecraft 4323939cd0b543f5af814a3288f136b8
+net/minecraft/client/Minecraft 5dc0f5e009b6cde41aa93fa29663719f
 net/minecraft/client/audio/GuardianSound 7b5ba167fa2dbbe46303c9168c2bd340
 net/minecraft/client/audio/ISound$AttenuationType 1364425ced1cba63e327532b65541e80
 net/minecraft/client/audio/ISound b2768d2776ddf37f45ffa7a1070b9fc6
@@ -378,7 +378,7 @@ net/minecraft/client/gui/GuiListExtended$IGuiListEntry 73ae40484d38ed4c7d2ca4a49
 net/minecraft/client/gui/GuiListExtended 6fbdf579e76955cb05df97055d84b0d6
 net/minecraft/client/gui/GuiLockIconButton$Icon 99017e39f0cb894e92b665327301717b
 net/minecraft/client/gui/GuiLockIconButton 325af2337e6723255ce2c07de8c255b5
-net/minecraft/client/gui/GuiMainMenu e84dc24449485310a2f49d649dc11b12
+net/minecraft/client/gui/GuiMainMenu 4f0c968964786ee2fbaa68d6b9535d6f
 net/minecraft/client/gui/GuiMemoryErrorScreen b48acf2b8a8654b7bf48ddc9affe3a76
 net/minecraft/client/gui/GuiMerchant$MerchantButton 832966b0cb259d036fa7d1a4cccae5fd
 net/minecraft/client/gui/GuiMerchant ffb9e76a09954c956401f888314e5eac
@@ -1602,9 +1602,9 @@ net/minecraft/item/Item$ToolMaterial 75ae9e33b339a83280fec502af50d369
 net/minecraft/item/Item e2ea280bd84c54adc858906338f3a490
 net/minecraft/item/ItemAnvilBlock 7317c06255ae7b1a4c9b8c8314097ab2
 net/minecraft/item/ItemAppleGold 00f7d902a12981856ef77552a322fd72
-net/minecraft/item/ItemArmor$1 29412cb7f92ee4d34ed46fcbef4f6cf0
-net/minecraft/item/ItemArmor$ArmorMaterial 76af7fc750213a79c793834f257ad105
-net/minecraft/item/ItemArmor 14873d00938a5f771b16c83d3409360c
+net/minecraft/item/ItemArmor$1 57b8973732aab9d43c50e53d838f2856
+net/minecraft/item/ItemArmor$ArmorMaterial fae69c26a77670421222be98f8feb17c
+net/minecraft/item/ItemArmor e8535e3313bc53caa87cec606fb6f329
 net/minecraft/item/ItemArmorStand 979cd4970bada9ef11bb76d9ea492c59
 net/minecraft/item/ItemAxe 6ae360bbcacbc906ed7347bed283e12d
 net/minecraft/item/ItemBanner 76cd9515420a473c764858237553a852
@@ -2520,4 +2520,4 @@ net/minecraft/world/storage/WorldInfo$7 e09531acbb3fb3f5acb7ae1c112eb437
 net/minecraft/world/storage/WorldInfo$8 d61d8645f39979f1febf681c343e8aca
 net/minecraft/world/storage/WorldInfo$9 f206c291e4f4fd056949c5b34813511d
 net/minecraft/world/storage/WorldInfo 5a02dec59a16f4913a0b4cb1611c7151
-prova/speriamo/provola 28144d815fd5c62d7e54cf9a471048bc
+prova/speriamo/provola 928e1dc45e2ac93fc199f98e6ab2a111
