@@ -7,8 +7,7 @@
 
 
 
-  package net.minecraft.client.gui;
- 
+package net.minecraft.client.gui;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.audio.PositionedSoundRecord;
 import net.minecraft.client.audio.SoundHandler;

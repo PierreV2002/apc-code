@@ -44,10 +44,11 @@ public static void render()   {
 	 int z = (int) getmc.thePlayer.chasingPosZ;
 	 int y = (int) getmc.thePlayer.chasingPosY;
 	 
-	 
+	/* 
 	getmc.fontRendererObj.drawString("Ciao " + getmc.getSession().getUsername(), 1, 1, 0xffffff);
 	getmc.fontRendererObj.drawString("Buon Divertimento", 2, 10, 0xffffff);
 	getmc.fontRendererObj.drawString("x: " + x + " y: "+y+" z: "+ z , 3, 20, 0xffffff);
+	*/
 
 	//getmc.fontRendererObj.drawString("Ciao " + coso , 14, 30, 0xffffff);
 	

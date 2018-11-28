@@ -1,4 +1,4 @@
-activeuserprofiles=DESKTOP-CUJ4LAA;PC-Fabien;Team
+activeuserprofiles=Pierre-PC;Team
 eclipse.preferences.version=1
-org.eclipse.rse.systemtype.local.systemType.defaultUserId=fabyd
-useridperkey=DESKTOP-CUJ4LAA.Local\=fabyd;PC-Fabien.Local\=fabyd;
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=Pierre
+useridperkey=Pierre-PC.Local\=Pierre;
