@@ -781,3 +781,7 @@ CalledProcessError: Command '"C:\Program Files\Java\jdk1.8.0_171\bin\java" -Xinc
 15:30:43 - "scalac" is not found on the PATH.  Scala files will not be recompiled
 15:30:51 - !! Can not find server md5s !!
 15:43:37 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:49:52 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:50:23 - !! Can not find server sources, try decompiling !!
+15:51:31 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+15:51:40 - !! Can not find server md5s !!

@@ -68,7 +68,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
     /** Link to the Mojang Support about minimum requirements */
     private String openGLWarningLink;
     private static final ResourceLocation splashTexts = new ResourceLocation("texts/splashes.txt");
-    private static final ResourceLocation minecraftTitleTextures = new ResourceLocation("textures/gui/title/minecraft.png");
+    private static final ResourceLocation minecraftTitleTextures = new ResourceLocation("textures/gui/title/apctitle.png");
     /** An array of all the paths to the panorama pictures. */
     private static final ResourceLocation[] titlePanoramaPaths = new ResourceLocation[] {new ResourceLocation("textures/gui/title/background/panorama_0.png"), new ResourceLocation("textures/gui/title/background/panorama_1.png"), new ResourceLocation("textures/gui/title/background/panorama_2.png"), new ResourceLocation("textures/gui/title/background/panorama_3.png"), new ResourceLocation("textures/gui/title/background/panorama_4.png"), new ResourceLocation("textures/gui/title/background/panorama_5.png")};
     public static final String field_96138_a = "Please click " + EnumChatFormatting.UNDERLINE + "here" + EnumChatFormatting.RESET + " for more information.";
@@ -535,14 +535,14 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.scale(f, f, f);
         this.drawCenteredString(this.fontRendererObj, this.splashText, 0, -8, -256);
         GlStateManager.popMatrix();
-        String s = "Apocalitticraft 0.3.3-20181128";
+        String s = "Apocalitticraft 0.3.3-20181211";
 
         if (this.mc.isDemo())
         {
             s = s + " Demo";
         }
        
-        String ilm ="Arte e Tecnologia Forte di Bard 1° dicembre 2018";
+        String ilm ="Porte Aperte ISILTeP 14 dicembre 2018";
 
 
         String gl ="OpenGL: " + GL11.glGetString(GL11.GL_VERSION);
