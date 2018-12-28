@@ -535,22 +535,20 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.scale(f, f, f);
         this.drawCenteredString(this.fontRendererObj, this.splashText, 0, -8, -256);
         GlStateManager.popMatrix();
-        String s = "Apocalitticraft 0.3.3-20181211";
+        String s = "Apocalitticraft 0.3.3-20181228";
 
         if (this.mc.isDemo())
         {
             s = s + " Demo";
         }
        
-        String ilm ="Porte Aperte ISILTeP 14 dicembre 2018";
-
-
+        String ilm ="Porte Aperte ISILTeP 11 gennaio 2019";
         String gl ="OpenGL: " + GL11.glGetString(GL11.GL_VERSION);
         String gpu ="GPU: " + GL11.glGetString(GL11.GL_VENDOR) + " " + GL11.glGetString(GL11.GL_RENDERER);
-       // this.drawString(this.fontRendererObj, gpu, this.width - this.fontRendererObj.getStringWidth(s1) - 2, this.height - 10, -1);
+   
         this.drawString(this.fontRendererObj, gpu, 2, this.height - 20, 0x42B0F4);
         this.drawString(this.fontRendererObj, s, 2, this.height - 10, 0x70F0E0);
-        this.drawString(this.fontRendererObj, ilm, 2, this.height - 40, 0xAA00FF);
+        //this.drawString(this.fontRendererObj, ilm, 2, this.height - 40, 0xAA00FF);
         this.drawString(this.fontRendererObj, gl, 2, this.height - 30, 0x9EF442);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)
