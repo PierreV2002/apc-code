@@ -548,7 +548,7 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
    
         this.drawString(this.fontRendererObj, gpu, 2, this.height - 20, 0x42B0F4);
         this.drawString(this.fontRendererObj, s, 2, this.height - 10, 0x70F0E0);
-        //this.drawString(this.fontRendererObj, ilm, 2, this.height - 40, 0xAA00FF);
+        this.drawString(this.fontRendererObj, ilm, 2, this.height - 40, 0xAA00FF);
         this.drawString(this.fontRendererObj, gl, 2, this.height - 30, 0x9EF442);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)
