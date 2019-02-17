@@ -796,7 +796,7 @@ INFO: Processed 1816 -> 1813
 INFO: Processing net/minecraft/client/gui/GuiLockIconButton.class
 INFO: Processed 2220 -> 2217
 INFO: Processing net/minecraft/client/gui/GuiMainMenu.class
-INFO: Processed 18087 -> 18106
+INFO: Processed 17988 -> 18006
 INFO: Processing net/minecraft/client/gui/GuiMemoryErrorScreen.class
 INFO: Processed 2883 -> 2883
 INFO: Processing net/minecraft/client/gui/GuiMerchant$MerchantButton.class

@@ -478,7 +478,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         logger.info("=============================");
         logger.info("Welcome to Apocalitticraft!");
         logger.info("-----------");
-        logger.info("Version: 0.3.3-20190110");
+        logger.info("Version: 0.3.3-20190217");
         logger.info("=============================");
         this.setWindowIcon();
         this.setInitialDisplayMode();

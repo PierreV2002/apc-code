@@ -535,14 +535,14 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
         GlStateManager.scale(f, f, f);
         this.drawCenteredString(this.fontRendererObj, this.splashText, 0, -8, -256);
         GlStateManager.popMatrix();
-        String s = "Apocalitticraft 0.3.3-20190110";
+        String s = "Apocalitticraft 0.3.3-20190217";
 
         if (this.mc.isDemo())
         {
             s = s + " Demo";
         }
        
-        String ilm ="Porte Aperte ISILTeP 11 gennaio 2019";
+        //String ilm ="Porte Aperte ISILTeP 11 gennaio 2019";
         String gl ="OpenGL: " + GL11.glGetString(GL11.GL_VERSION);
         String gpu ="GPU: " + GL11.glGetString(GL11.GL_VENDOR) + " " + GL11.glGetString(GL11.GL_RENDERER);
    
