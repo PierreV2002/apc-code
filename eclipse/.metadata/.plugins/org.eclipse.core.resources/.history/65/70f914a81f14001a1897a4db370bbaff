@@ -542,13 +542,13 @@ public class GuiMainMenu extends GuiScreen implements GuiYesNoCallback
             s = s + " Demo";
         }
        
-        //String ilm ="Porte Aperte ISILTeP 11 gennaio 2019";
+        String ilm ="Porte Aperte ISILTeP 6 dicembre 2019";
         String gl ="OpenGL: " + GL11.glGetString(GL11.GL_VERSION);
         String gpu ="GPU: " + GL11.glGetString(GL11.GL_VENDOR) + " " + GL11.glGetString(GL11.GL_RENDERER);
    
         this.drawString(this.fontRendererObj, gpu, 2, this.height - 20, 0x42B0F4);
         this.drawString(this.fontRendererObj, s, 2, this.height - 10, 0x70F0E0);
-        //this.drawString(this.fontRendererObj, ilm, 2, this.height - 40, 0xAA00FF);
+        this.drawString(this.fontRendererObj, ilm, 2, this.height - 40, 0xAA00FF);
         this.drawString(this.fontRendererObj, gl, 2, this.height - 30, 0x9EF442);
 
         if (this.openGLWarning1 != null && this.openGLWarning1.length() > 0)

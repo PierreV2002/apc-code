@@ -1,18 +1,50 @@
-[10:38:11] [Client thread/INFO]: Setting user: Player718
-[10:38:11] [Client thread/INFO]: (Session ID is token:0:Player718)
-[10:38:12] [Client thread/INFO]: LWJGL Version: 2.9.4
-[10:38:12] [Client thread/INFO]: =============================
-[10:38:12] [Client thread/INFO]: Welcome to Apocalitticraft!
-[10:38:12] [Client thread/INFO]: -----------
-[10:38:12] [Client thread/INFO]: Version: 0.3.3-20190217
-[10:38:12] [Client thread/INFO]: =============================
-[10:38:13] [Client thread/INFO]: Reloading ResourceManager: Default
-[10:38:14] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[10:38:14] [Thread-6/INFO]: Initializing LWJGL OpenAL
-[10:38:14] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[10:38:14] [Thread-6/INFO]: OpenAL initialized.
-[10:38:14] [Sound Library Loader/INFO]: Sound engine started
-[10:38:24] [Client thread/INFO]: Created: 512x512 textures-atlas
-[10:38:44] [Client thread/INFO]: Stopping!
-[10:38:44] [Client thread/INFO]: SoundSystem shutting down...
-[10:38:44] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[10:48:11] [Client thread/INFO]: Setting user: Player419
+[10:48:11] [Client thread/INFO]: (Session ID is token:0:Player419)
+[10:48:13] [Client thread/INFO]: LWJGL Version: 2.9.4
+[10:48:13] [Client thread/INFO]: =============================
+[10:48:13] [Client thread/INFO]: Welcome to Apocalitticraft!
+[10:48:13] [Client thread/INFO]: -----------
+[10:48:13] [Client thread/INFO]: Version: 0.4.1-20191201
+[10:48:13] [Client thread/INFO]: =============================
+[10:48:13] [Client thread/INFO]: Reloading ResourceManager: Default
+[10:48:13] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[10:48:14] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[10:48:14] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:48:14] [Thread-6/INFO]: OpenAL initialized.
+[10:48:14] [Sound Library Loader/INFO]: Sound engine started
+[10:48:17] [Client thread/INFO]: Created: 512x512 textures-atlas
+[10:48:25] [Server thread/INFO]: Starting integrated minecraft server version 1.8.8
+[10:48:25] [Server thread/INFO]: Generating keypair
+[10:48:26] [Server thread/INFO]: Preparing start region for level 0
+[10:48:26] [Server thread/INFO]: Changing view distance to 4, from 10
+[10:48:27] [Server thread/INFO]: Player419[local:E:6955cd2e] logged in with entity id 253 at (222.1888204527535, 68.0, 112.4230208500334)
+[10:48:27] [Server thread/INFO]: Player419 è entrato nel gioco
+[10:48:31] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[10:48:31] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[10:48:31] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2049, defaulting to 0 (Ocean)
+[10:48:31] [Chunk Batcher 1/WARN]: Biome ID is out of bounds: 2563, defaulting to 0 (Ocean)
+[10:48:35] [Server thread/INFO]: Saving and pausing game...
+[10:48:35] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[10:48:36] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[10:48:36] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[10:48:44] [Server thread/INFO]: Saving and pausing game...
+[10:48:44] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[10:48:44] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[10:48:44] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[10:48:45] [Server thread/INFO]: Saving and pausing game...
+[10:48:45] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[10:48:45] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[10:48:45] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[10:48:46] [Server thread/INFO]: Saving and pausing game...
+[10:48:46] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[10:48:46] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[10:48:46] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[10:48:47] [Server thread/INFO]: Stopping server
+[10:48:47] [Server thread/INFO]: Saving players
+[10:48:47] [Server thread/INFO]: Saving worlds
+[10:48:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Overworld
+[10:48:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/Nether
+[10:48:47] [Server thread/INFO]: Saving chunks for level 'Copia di NON ELIMINARE MAI'/The End
+[10:48:48] [Client thread/INFO]: Stopping!
+[10:48:48] [Client thread/INFO]: SoundSystem shutting down...
+[10:48:48] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
