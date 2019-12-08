@@ -478,7 +478,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
         logger.info("=============================");
         logger.info("Welcome to Apocalitticraft!");
         logger.info("-----------");
-        logger.info("Version: 0.4.1-20191201");
+        logger.info("Version: 0.4.2-20191208");
         logger.info("=============================");
         this.setWindowIcon();
         this.setInitialDisplayMode();
@@ -621,7 +621,7 @@ public class Minecraft implements IThreadListener, IPlayerUsage
     private void createDisplay() throws LWJGLException
     {
         Display.setResizable(true);
-        Display.setTitle("Apocalitticraft 0.4.1");
+        Display.setTitle("Apocalitticraft 0.4.2");
 
         try
         {
