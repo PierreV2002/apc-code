@@ -24,7 +24,7 @@ Gli assets e le textures non saranno messi in quella cartella, quindi devi mette
 - Samuele Lolli (Samuele1414)
 - Alexandru Babasa
 - Luca Gioffré
-- Wei Lin (Craysos)
+- Wei Lin 
 - Paul Janin
 - Alexander Vesan
 - Alexander Garbinato
